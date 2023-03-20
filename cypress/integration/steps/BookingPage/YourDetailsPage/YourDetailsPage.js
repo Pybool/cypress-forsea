@@ -148,24 +148,18 @@ Then("'YOUR DETAILS' page displays with six '<Text>' boxes", () => {
 });
 
 Then("'YOUR DETAILS' page displays with two <check boxes>", () => {
-    // cy.visit('/details').then(()=>{
         helper.dispalyedDetailsPage()
         
-    // })
-    
 });
 
 And("'Make Payment' button is highlighted in red", () => {
-    // cy.visit('/details').then(()=>{
         cy.get("button[class*='button_warning_']",{timeout:40000})
         .find('span').contains('Make payment').should('have.css', 'color', 'rgb(224, 80, 32)')
-    // })
     
 });
 
 When("I click inside a 'Text Box' and clcik in the next input the '* Required field' message is displayed", () => {
-    // cy.visit('/details').then(()=>{
-        //Check for Just Three instances
+
         let len = formElements.length-1
         for(let i = 0; i < len; i++){
             cy.get(`input[placeholder*='${formElements[i]}']`,{timeout:40000}).as('input')
