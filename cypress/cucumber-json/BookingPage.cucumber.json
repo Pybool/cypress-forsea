@@ -1,0 +1,953 @@
+[
+  {
+    "description": "\tAs a User I will like to book a journey",
+    "keyword": "Feature",
+    "name": "Booking page",
+    "line": 2,
+    "id": "booking-page",
+    "tags": [],
+    "uri": "BookingPage.feature",
+    "elements": [
+      {
+        "id": "booking-page;c2375-validate-from-button-on-home-screen",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "C2375 Validate From button on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 7713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 4755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the \"From\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 6105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the \"To\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the \"Travel\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the \"Visitors\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-<your-details>-link-on-home-screen",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate <YOUR DETAILS> link on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1795000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the 'Your Details' should be inactive and maintains green CSS",
+            "result": {
+              "status": "passed",
+              "duration": 4715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-<make-payment>-link-on-home-screen",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Validate <MAKE PAYMENT> link on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 806000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the 'Make Payment' should be inactive and maintains green CSS",
+            "result": {
+              "status": "passed",
+              "duration": 3110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-from-and-to-fields",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Validate FROM and TO fields",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the \"From\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 3763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the \"To\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I click the \"From\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see \"From\" modal in Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 1619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I select \"Sweden, Helsingborg\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 2658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I click \"Next\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 3553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should see \"To\" modal in Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I select \"Denmark, Elsinor\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 8193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the \"From\" field is \"active-green\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 1499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "the \"To\" field is \"active-green\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 1621000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-on-the-home-screen",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Validate Travel and Visitors field on the Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 25346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "the \"Travel\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the \"From\" field is \"active-green\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the \"To\" field is \"active-green\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-for-vehicle",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Validate Travel and Visitors field for vehicle",
+        "tags": [
+          {
+            "name": "@automat",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I select \"Car under 6 meter\" from the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-for-vehicle",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Validate Travel and Visitors field for vehicle",
+        "tags": [
+          {
+            "name": "@automat",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I select \"Motorhome < 6 meter\" from the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-for-vehicle",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "Validate Travel and Visitors field for vehicle",
+        "tags": [
+          {
+            "name": "@automat",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I select \"Motorhome > 6 meter\" from the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-for-vehicle",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "Validate Travel and Visitors field for vehicle",
+        "tags": [
+          {
+            "name": "@automat",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I select \"Car + motorhome\" from the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-for-vehicle",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Validate Travel and Visitors field for vehicle",
+        "tags": [
+          {
+            "name": "@automat",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I select \"Car + trailer\" from the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-travel-and-visitors-field-for-vehicle",
+        "keyword": "Scenario",
+        "line": 80,
+        "name": "Validate Travel and Visitors field for vehicle",
+        "tags": [
+          {
+            "name": "@automat",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I select \"Motorcycle\" from the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-page;validate-arrow-button-on-the-booking-page",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Validate Arrow button on the booking page",
+        "tags": [
+          {
+            "name": "@automated-skip",
+            "line": 83
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "user click the back arrow button on booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "I should be on the 'Make a Booking Page' and '/explore' url should match",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

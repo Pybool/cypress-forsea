@@ -1,0 +1,405 @@
+[
+  {
+    "description": "    As a user I want to select outbound Date\n    So I have the correct ticket",
+    "keyword": "Feature",
+    "name": "Select Dates for InBound",
+    "line": 1,
+    "id": "select-dates-for-inbound",
+    "tags": [],
+    "uri": "SelectReturn.feature",
+    "elements": [
+      {
+        "id": "select-dates-for-inbound;add-return-button-in-the-return-section-is-highlighted",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add Return button in the Return Section is highlighted",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 17964000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I am on Book your journey page",
+            "result": {
+              "status": "passed",
+              "duration": 2509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "'Route' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 20437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "'How' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 22276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "'OutBound' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 36362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the 'Add Return' button is highlighted",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 15000ms: expected '<button.button_button_lNUs7.button_offer_4nA8R.button_flex_rzcdm.button_withBorder_Olwt->' to have text 'Add Return', but the text was '\\n\\n\\nAdd ReturnSelect'\n    + expected - actual\n\n    -'\\n\\n\\nAdd ReturnSelect'\n    +'Add Return'\n\n    at Context.eval (cypress/integration/steps/BookingPage/SelectReturn/SelectReturn.js:23:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the 'DONE' button is highlighted and clickable",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-inbound;return-date-modal-is-displayed-when-clicked",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Return Date modal is displayed when clicked",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 17299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I am on Book your journey page",
+            "result": {
+              "status": "passed",
+              "duration": 1843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "'Route' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 23739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "'How' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 21894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "'OutBound' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 30204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the 'Add Return' button is highlighted",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 15000ms: expected '<button.button_button_lNUs7.button_offer_4nA8R.button_flex_rzcdm.button_withBorder_Olwt->' to have text 'Add Return', but the text was '\\n\\n\\nAdd ReturnSelect'\n    + expected - actual\n\n    -'\\n\\n\\nAdd ReturnSelect'\n    +'Add Return'\n\n    at Context.eval (cypress/integration/steps/BookingPage/SelectReturn/SelectReturn.js:23:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the 'Add Return' button is clicked",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the 'Return Date' modal is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-inbound;return-date-modal-shows-days-of-the-week",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Return Date modal shows days of the week",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 2337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I am on Book your journey page",
+            "result": {
+              "status": "passed",
+              "duration": 1858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "'Route' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 27243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "'How' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 30015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "'OutBound' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 46155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "'Items reserved in cart for x:xx minutes' dispalyed",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "the 'Add Return' button is clicked",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the 'Return Date' modal is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the Modal shows Days of the week",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-inbound;user-clicks-back-arrow-in-'return-date-modal'",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "User clicks back arrow in 'Return Date modal'",
+        "tags": [
+          {
+            "name": "@automatings",
+            "line": 39
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I am on Book your journey page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "'Route' section is completed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "'How' section is completed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "'OutBound' section is completed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "the 'Add Return' button is clicked",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the 'Return Date' modal is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click the front arrow icon",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "next 7 days options displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I click the back arrow icon",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "<Today>, <Tomorrow>, <A day After> date options displays",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

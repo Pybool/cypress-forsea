@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Daily performance report",
+    "sub_title": "Daily metrics",
+    "time": null,
+    "block_a": {
+      "type": "list",
+      "items": [
+        "group_count",
+        "adult_count",
+        "children_count",
+        "jingles_count"
+      ]
+    },
+    "block_b": {
+      "type": "list",
+      "items": [
+        "woodland_check",
+        "compass_check",
+        "fc_check",
+        "compass_wait"
+      ]
+    }
+  },
+  {
+    "title": "13:30 Update performance report",
+    "sub_title": "At 13:30",
+    "time": "13:30",
+    "block_a": {
+      "type": "list",
+      "items": [
+        "group_count",
+        "adult_count",
+        "children_count",
+        "jingles_count"
+      ]
+    },
+    "block_b": {
+      "type": "list",
+      "items": [
+        "woodland_check",
+        "compass_check",
+        "fc_check",
+        "compass_wait"
+      ]
+    }
+  },
+  {
+    "title": "Future bookings",
+    "sub_title": "Future bookings",
+    "time": null,
+    "block_a": {
+      "type": "list",
+      "items": [
+        "group_total",
+        "adult_total",
+        "children_total",
+        "jingles_total"
+      ]
+    },
+    "block_b": {
+      "type": "list",
+      "items": [
+        "group_avg",
+        "adult_avg",
+        "children_avg",
+        "wheelchair_avg",
+        "group_avg_size"
+      ]
+    }
+  },
+  {
+    "title": "Golden experience (VIP) next day bookings",
+    "sub_title": "Tomorrow's Golden Experience (VIP) bookings",
+    "time": null,
+    "filterAddon": "golden_experience",
+    "block_a": {
+      "type": "list",
+      "items": [
+        "booking_total",
+        "adult_avg"
+      ]
+    },
+    "block_b": {
+      "type": "table",
+      "filter": "compass_check_not",
+      "items": [
+        "lead",
+        "group",
+        "tour_time"
+      ]
+    }
+  },
+  {
+    "title": "End of day No Show report",
+    "time": null,
+    "sub_title": "Daily list",
+    "block_a": {
+      "type": "list",
+      "items": [
+        "woodland_check_not"
+      ]
+    },
+    "block_b": {
+      "type": "table",
+      "filter": "woodland_check_not",
+      "items": [
+        "lead",
+        "tour_time",
+        "order_id"
+      ]
+    }
+  },
+  {
+    "title": "End of day FC No Show report",
+    "time": null,
+    "sub_title": "Daily list",
+    "block_a": {
+      "type": "list",
+      "items": [
+        "compass_check_not"
+      ]
+    },
+    "block_b": {
+      "type": "table",
+      "filter": "compass_check_not",
+      "items": [
+        "lead",
+        "tour_time",
+        "order_id"
+      ]
+    }
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "description": "    As a user I should see timeout modal",
+    "keyword": "Feature",
+    "name": "Timeout modal displays",
+    "line": 1,
+    "id": "timeout-modal-displays",
+    "tags": [],
+    "uri": "Timeoutpage.feature",
+    "elements": [
+      {
+        "id": "timeout-modal-displays;countdown-message-displays-when-time-expires-for-single-journey",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Countdown message displays when time expires for single journey",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 59451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I am on Book your journey page",
+            "result": {
+              "status": "passed",
+              "duration": 2688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "'Route' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 46640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "'How' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 54394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "'OutBound' section is completed",
+            "result": {
+              "status": "passed",
+              "duration": 105661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "'DONE' button is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "'YOUR DETAILS' page displays with six '<Text>' boxes",
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:144172:81\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6440:41\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The timer exceed allocated time",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

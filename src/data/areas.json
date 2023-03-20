@@ -1,0 +1,47 @@
+[
+  {
+    "id": "flow",
+    "kind": "Flow",
+    "color": "#57A070",
+    "icon": "elf",
+    "hidden": true
+  },
+  {
+    "id": "elven",
+    "kind": "Elven Bazaar",
+    "color": "#57A070",
+    "icon": "elf"
+  },
+  {
+    "id": "woodland",
+    "kind": "Woodland Check in",
+    "color": "#6FC0C6",
+    "icon": "wood",
+    "location": "lap_fc_woodland"
+  },
+  {
+    "id": "compass",
+    "kind": "Compass Lobby",
+    "color": "#C4C668",
+    "icon": "compass",
+    "location": "lap_fc_compass"
+  },
+  {
+    "id": "guest",
+    "kind": "Guest relations + VIP",
+    "color": "#B265B4",
+    "icon": "crown"
+  },
+  {
+    "id": "fc",
+    "kind": "FC Control",
+    "color": "#E59C46",
+    "icon": "control"
+  },
+  {
+    "id": "management",
+    "kind": "Management",
+    "color": "#BD5151",
+    "icon": "cog"
+  }
+]
