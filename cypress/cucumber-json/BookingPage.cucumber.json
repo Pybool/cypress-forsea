@@ -28,7 +28,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 7713000000
+              "duration": 6610000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 4755000000
+              "duration": 2605000000
             }
           },
           {
@@ -47,8 +47,9 @@
             "line": 8,
             "name": "the \"From\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 6105000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button[class^=\"button_button_\"]`, but never found it.\n    at Context.eval (cypress/integration/steps/BookingPage/BookingPage/BookingPage.js:25:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -57,8 +58,7 @@
             "line": 9,
             "name": "the \"To\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 307000000
+              "status": "skipped"
             }
           },
           {
@@ -67,8 +67,7 @@
             "line": 10,
             "name": "the \"Travel\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 340000000
+              "status": "skipped"
             }
           },
           {
@@ -77,8 +76,7 @@
             "line": 11,
             "name": "the \"Visitors\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 967000000
+              "status": "skipped"
             }
           }
         ]
@@ -103,7 +101,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1795000000
+              "duration": 6079000000
             }
           },
           {
@@ -113,7 +111,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 2077000000
+              "duration": 2746000000
             }
           },
           {
@@ -122,8 +120,9 @@
             "line": 17,
             "name": "the 'Your Details' should be inactive and maintains green CSS",
             "result": {
-              "status": "passed",
-              "duration": 4715000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[class*=\"row_spread_\"]`, but never found it.\n    at Context.eval (cypress/integration/steps/BookingPage/BookingPage/BookingPage.js:35:9)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -132,8 +131,7 @@
             "line": 18,
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 160000000
+              "status": "skipped"
             }
           },
           {
@@ -142,8 +140,7 @@
             "line": 19,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 350000000
+              "status": "skipped"
             }
           }
         ]
@@ -168,7 +165,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 984000000
+              "duration": 5782000000
             }
           },
           {
@@ -178,7 +175,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 806000000
+              "duration": 2922000000
             }
           },
           {
@@ -187,8 +184,8 @@
             "line": 25,
             "name": "the 'Make Payment' should be inactive and maintains green CSS",
             "result": {
-              "status": "passed",
-              "duration": 3110000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[class*=\"row_spread_\"]`, but never found it.\n    at Context.eval (cypress/integration/steps/BookingPage/BookingPage/BookingPage.js:35:9)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -197,8 +194,7 @@
             "line": 26,
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 517000000
+              "status": "skipped"
             }
           },
           {
@@ -207,8 +203,7 @@
             "line": 27,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 631000000
+              "status": "skipped"
             }
           }
         ]
@@ -233,7 +228,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1297000000
+              "duration": 6225000000
             }
           },
           {
@@ -243,7 +238,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1232000000
+              "duration": 2940000000
             }
           },
           {
@@ -252,8 +247,8 @@
             "line": 35,
             "name": "the \"From\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 3763000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button[class^=\"button_button_\"]`, but never found it.\n    at Context.eval (cypress/integration/steps/BookingPage/BookingPage/BookingPage.js:25:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -262,8 +257,7 @@
             "line": 36,
             "name": "the \"To\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 218000000
+              "status": "skipped"
             }
           },
           {
@@ -272,8 +266,7 @@
             "line": 37,
             "name": "I click the \"From\" field in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 4279000000
+              "status": "skipped"
             }
           },
           {
@@ -282,8 +275,7 @@
             "line": 38,
             "name": "I should see \"From\" modal in Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 1619000000
+              "status": "skipped"
             }
           },
           {
@@ -292,8 +284,7 @@
             "line": 39,
             "name": "I select \"Sweden, Helsingborg\" from the list",
             "result": {
-              "status": "passed",
-              "duration": 2658000000
+              "status": "skipped"
             }
           },
           {
@@ -302,8 +293,7 @@
             "line": 40,
             "name": "I click \"Next\" button from the modal",
             "result": {
-              "status": "passed",
-              "duration": 3553000000
+              "status": "skipped"
             }
           },
           {
@@ -312,8 +302,7 @@
             "line": 41,
             "name": "I should see \"To\" modal in Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 581000000
+              "status": "skipped"
             }
           },
           {
@@ -322,8 +311,7 @@
             "line": 42,
             "name": "I select \"Denmark, Elsinor\" from the list",
             "result": {
-              "status": "passed",
-              "duration": 8193000000
+              "status": "skipped"
             }
           },
           {
@@ -332,8 +320,7 @@
             "line": 43,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "passed",
-              "duration": 2440000000
+              "status": "skipped"
             }
           },
           {
@@ -342,8 +329,7 @@
             "line": 44,
             "name": "the \"From\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 1499000000
+              "status": "skipped"
             }
           },
           {
@@ -352,8 +338,7 @@
             "line": 45,
             "name": "the \"To\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 1621000000
+              "status": "skipped"
             }
           }
         ]
@@ -378,7 +363,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1813000000
+              "duration": 21658000000
             }
           },
           {
@@ -388,7 +373,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1315000000
+              "duration": 2120000000
             }
           },
           {
@@ -397,8 +382,8 @@
             "line": 53,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "passed",
-              "duration": 25346000000
+              "status": "failed",
+              "error_message": "TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Failed to fetch\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at W (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:151474)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:153973)\n    at u (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:9257)\n    at Generator.<anonymous> (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:10604)\n    at Generator.throw (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:9620)\n    at o (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:16844)\n    at a (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.0819e166.js:2:17083)"
             }
           },
           {
@@ -407,8 +392,7 @@
             "line": 54,
             "name": "the \"Travel\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 566000000
+              "status": "skipped"
             }
           },
           {
@@ -417,8 +401,7 @@
             "line": 55,
             "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 431000000
+              "status": "skipped"
             }
           },
           {
@@ -427,8 +410,7 @@
             "line": 56,
             "name": "the \"From\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 638000000
+              "status": "skipped"
             }
           },
           {
@@ -437,8 +419,7 @@
             "line": 57,
             "name": "the \"To\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 491000000
+              "status": "skipped"
             }
           },
           {
@@ -447,8 +428,7 @@
             "line": 58,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 427000000
+              "status": "skipped"
             }
           },
           {
@@ -457,8 +437,7 @@
             "line": 59,
             "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 451000000
+              "status": "skipped"
             }
           },
           {
@@ -467,8 +446,7 @@
             "line": 60,
             "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 451000000
+              "status": "skipped"
             }
           },
           {
@@ -477,8 +455,7 @@
             "line": 61,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 304000000
+              "status": "skipped"
             }
           }
         ]
