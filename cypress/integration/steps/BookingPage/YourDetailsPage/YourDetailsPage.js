@@ -4,7 +4,7 @@ import {
   When,
 } from 'cypress-cucumber-preprocessor/steps'
 import * as helper from '../../../functions/helper'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 
 
 const buttonsSelector = 'button[class^="button_button_"]'

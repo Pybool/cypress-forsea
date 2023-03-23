@@ -28,7 +28,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 16852000000
+              "duration": 478000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 43547000000
+              "duration": 4688000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "the \"From\" field is \"orange\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 60927000000
+              "duration": 4408000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "the \"To\" field is \"greyed out\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 7698000000
+              "duration": 164000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "the \"Travel\" field is \"greyed out\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 4876000000
+              "duration": 189000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "the \"Visitors\" field is \"greyed out\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 9542000000
+              "duration": 241000000
             }
           }
         ]
@@ -103,7 +103,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 17643000000
+              "duration": 803000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 37744000000
+              "duration": 1371000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "the 'Your Details' should be inactive and maintains green CSS",
             "result": {
               "status": "passed",
-              "duration": 67441000000
+              "duration": 1869000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
               "status": "passed",
-              "duration": 3334000000
+              "duration": 78000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 15541000000
+              "duration": 243000000
             }
           }
         ]
@@ -168,7 +168,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 44927000000
+              "duration": 526000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 31385000000
+              "duration": 881000000
             }
           },
           {
@@ -188,7 +188,7 @@
             "name": "the 'Make Payment' should be inactive and maintains green CSS",
             "result": {
               "status": "passed",
-              "duration": 43390000000
+              "duration": 1692000000
             }
           },
           {
@@ -198,7 +198,7 @@
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
               "status": "passed",
-              "duration": 1632000000
+              "duration": 24000000
             }
           },
           {
@@ -208,7 +208,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 6289000000
+              "duration": 158000000
             }
           }
         ]
@@ -233,7 +233,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 104529000000
+              "duration": 229000000
             }
           },
           {
@@ -243,7 +243,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 30943000000
+              "duration": 1009000000
             }
           },
           {
@@ -253,7 +253,7 @@
             "name": "the \"From\" field is \"orange\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 46143000000
+              "duration": 1737000000
             }
           },
           {
@@ -263,7 +263,7 @@
             "name": "the \"To\" field is \"greyed out\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 914000000
+              "duration": 129000000
             }
           },
           {
@@ -273,7 +273,7 @@
             "name": "I click the \"From\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 7724000000
+              "duration": 1069000000
             }
           },
           {
@@ -283,7 +283,7 @@
             "name": "I should see \"From\" modal in Booking Page",
             "result": {
               "status": "passed",
-              "duration": 2656000000
+              "duration": 254000000
             }
           },
           {
@@ -293,7 +293,7 @@
             "name": "I select \"Sweden, Helsingborg\" from the list",
             "result": {
               "status": "passed",
-              "duration": 21672000000
+              "duration": 978000000
             }
           },
           {
@@ -303,7 +303,7 @@
             "name": "I click \"Next\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 39293000000
+              "duration": 1424000000
             }
           },
           {
@@ -313,7 +313,7 @@
             "name": "I should see \"To\" modal in Booking Page",
             "result": {
               "status": "passed",
-              "duration": 15588000000
+              "duration": 282000000
             }
           },
           {
@@ -323,7 +323,7 @@
             "name": "I select \"Denmark, Elsinor\" from the list",
             "result": {
               "status": "passed",
-              "duration": 46171000000
+              "duration": 988000000
             }
           },
           {
@@ -333,7 +333,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 4729000000
+              "duration": 769000000
             }
           },
           {
@@ -343,7 +343,7 @@
             "name": "the \"From\" field is \"active-green\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 1604000000
+              "duration": 184000000
             }
           },
           {
@@ -353,7 +353,7 @@
             "name": "the \"To\" field is \"active-green\" in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 1472000000
+              "duration": 198000000
             }
           }
         ]
@@ -378,7 +378,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 19430000000
+              "duration": 309000000
             }
           },
           {
@@ -388,7 +388,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 2455000000
+              "duration": 1540000000
             }
           },
           {
@@ -397,8 +397,8 @@
             "line": 53,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "failed",
-              "error_message": "TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Failed to fetch\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at W (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:151474)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:153973)\n    at u (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:9257)\n    at Generator.<anonymous> (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:10604)\n    at Generator.throw (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:9620)\n    at o (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:16844)\n    at a (https://forsea-int.b2c.ticknovate-uat.com/static/js/main.236eb31b.js:2:17083)"
+              "status": "passed",
+              "duration": 6321000000
             }
           },
           {
@@ -407,7 +407,8 @@
             "line": 54,
             "name": "the \"Travel\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 150000000
             }
           },
           {
@@ -416,7 +417,8 @@
             "line": 55,
             "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 156000000
             }
           },
           {
@@ -425,7 +427,8 @@
             "line": 56,
             "name": "the \"From\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 168000000
             }
           },
           {
@@ -434,7 +437,8 @@
             "line": 57,
             "name": "the \"To\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 160000000
             }
           },
           {
@@ -443,7 +447,8 @@
             "line": 58,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 192000000
             }
           },
           {
@@ -452,7 +457,8 @@
             "line": 59,
             "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 158000000
             }
           },
           {
@@ -461,7 +467,8 @@
             "line": 60,
             "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 174000000
             }
           },
           {
@@ -470,7 +477,8 @@
             "line": 61,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 192000000
             }
           }
         ]

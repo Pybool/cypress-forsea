@@ -1,7 +1,7 @@
 
 import {Then, When} from 'cypress-cucumber-preprocessor/steps'
 import {openFieldModal, selectModalOption, clickModalButton, selectModalHorizontalOption} from '../../../functions/helper'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 
 
 When('the {string} and {string} fields are populated on the To and From field', (from, to) => {

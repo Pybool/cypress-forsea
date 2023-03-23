@@ -1,7 +1,7 @@
 
 import {Then, When} from 'cypress-cucumber-preprocessor/steps'
 import {openFieldModal, selectModalOption, clickModalButton, selectModalHorizontalOption, blockingWait} from '../../../functions/helper'
-const { Cypress, cy } = require('cypress');
+// const { Cypress, cy } = require('cypress');
 
 Then('the {string} field is {string} in the Booking Page', (button, mode) => {
   let baseColor

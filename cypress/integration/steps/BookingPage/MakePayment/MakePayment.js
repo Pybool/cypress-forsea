@@ -4,8 +4,8 @@ import {
   When,
 } from 'cypress-cucumber-preprocessor/steps'
 import * as helper from '../../../functions/helper'
-const cy = cy
-const Cypress = Cypress
+// const cy = cy
+// const Cypress = Cypress
 const formElements = {'First name': 'Taye',
   'Last name': 'Oyelekan',
   'Phone number': '0800000000',

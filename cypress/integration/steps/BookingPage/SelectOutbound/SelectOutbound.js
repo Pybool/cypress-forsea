@@ -4,7 +4,7 @@ import {openFieldModal,
   clickOutboundArrow,
   blockingWait,
 } from '../../../functions/helper'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 
 When('I select Date in the outbound section', () => {
   openFieldModal('Date')

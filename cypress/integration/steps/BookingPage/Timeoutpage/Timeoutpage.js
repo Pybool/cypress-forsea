@@ -2,7 +2,7 @@
 import {
   And,
 } from 'cypress-cucumber-preprocessor/steps'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 import * as helper from '../../../functions/helper'
 
 And('The timer exceed allocated time', async() => {

@@ -1,6 +1,6 @@
 
 import {Then, When} from 'cypress-cucumber-preprocessor/steps'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 
 Then('I enter an {string} promotional code', (invalidCode) => {
   cy.log(invalidCode)

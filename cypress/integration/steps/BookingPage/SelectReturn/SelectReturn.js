@@ -3,7 +3,7 @@ import {
   Then,
   When,
 } from 'cypress-cucumber-preprocessor/steps'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 import {blockingWait} from '../../../functions/helper'
 
 const buttonsSelector = 'button[class^="button_button_"]'

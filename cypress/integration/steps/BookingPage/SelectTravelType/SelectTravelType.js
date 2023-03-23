@@ -1,7 +1,7 @@
 
 import {Then, When} from 'cypress-cucumber-preprocessor/steps'
 import {openFieldModal, selectModalOption, clickModalButton, selectModalHorizontalOption} from '../../../functions/helper'
-const { cy } = require('cypress')
+// const { cy } = require('cypress')
 
 Then('I click the {string} field in the Booking Page', (button) => {
   openFieldModal(button)
