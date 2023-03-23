@@ -60,7 +60,7 @@ Feature: Booking page
 		Then the "Add Return" field is "greyed out" in the Booking Page
 		Then the "Date" field is "greyed out" in the Booking Page
 
-	@automat
+	@automate
 	Scenario Outline: Validate Travel and Visitors field for vehicle
 		Given I am a user of ForSea
 		When I visit the Booking page

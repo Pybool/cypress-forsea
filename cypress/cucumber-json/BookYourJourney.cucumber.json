@@ -28,7 +28,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 548000000
+              "duration": 1622000000
             }
           },
           {
@@ -37,8 +37,9 @@
             "line": 7,
             "name": "I visit the Booking page",
             "result": {
-              "status": "passed",
-              "duration": 3021000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'visit')\n    at Context.eval (cypress/integration/common/background.js:17:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -47,8 +48,7 @@
             "line": 8,
             "name": "the \"From\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 4809000000
+              "status": "skipped"
             }
           },
           {
@@ -57,8 +57,7 @@
             "line": 9,
             "name": "the \"To\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 293000000
+              "status": "skipped"
             }
           },
           {
@@ -67,8 +66,7 @@
             "line": 10,
             "name": "the \"Travel\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 291000000
+              "status": "skipped"
             }
           },
           {
@@ -77,8 +75,7 @@
             "line": 11,
             "name": "the \"Visitors\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 200000000
+              "status": "skipped"
             }
           },
           {
@@ -87,8 +84,7 @@
             "line": 12,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 209000000
+              "status": "skipped"
             }
           },
           {
@@ -97,8 +93,7 @@
             "line": 13,
             "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 217000000
+              "status": "skipped"
             }
           },
           {
@@ -107,8 +102,7 @@
             "line": 14,
             "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 196000000
+              "status": "skipped"
             }
           },
           {
@@ -117,8 +111,7 @@
             "line": 15,
             "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 170000000
+              "status": "skipped"
             }
           },
           {
@@ -127,8 +120,7 @@
             "line": 16,
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 156000000
+              "status": "skipped"
             }
           },
           {
@@ -137,8 +129,7 @@
             "line": 17,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 488000000
+              "status": "skipped"
             }
           }
         ]
@@ -163,7 +154,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1139000000
+              "duration": 1223000000
             }
           },
           {
@@ -172,8 +163,8 @@
             "line": 23,
             "name": "I visit the Booking page",
             "result": {
-              "status": "passed",
-              "duration": 1272000000
+              "status": "failed",
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'visit')\n    at Context.eval (cypress/integration/common/background.js:17:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -182,8 +173,7 @@
             "line": 24,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "passed",
-              "duration": 10974000000
+              "status": "skipped"
             }
           },
           {
@@ -192,8 +182,7 @@
             "line": 25,
             "name": "the \"Travel\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 247000000
+              "status": "skipped"
             }
           },
           {
@@ -202,8 +191,7 @@
             "line": 26,
             "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 261000000
+              "status": "skipped"
             }
           },
           {
@@ -212,8 +200,7 @@
             "line": 27,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 228000000
+              "status": "skipped"
             }
           },
           {
@@ -222,8 +209,7 @@
             "line": 28,
             "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 273000000
+              "status": "skipped"
             }
           },
           {
@@ -232,8 +218,7 @@
             "line": 29,
             "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 258000000
+              "status": "skipped"
             }
           },
           {
@@ -242,8 +227,7 @@
             "line": 30,
             "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 511000000
+              "status": "skipped"
             }
           },
           {
@@ -252,8 +236,7 @@
             "line": 31,
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 261000000
+              "status": "skipped"
             }
           },
           {
@@ -262,8 +245,7 @@
             "line": 32,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 774000000
+              "status": "skipped"
             }
           }
         ]
@@ -288,7 +270,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 553000000
+              "duration": 1219000000
             }
           },
           {
@@ -297,8 +279,8 @@
             "line": 37,
             "name": "I visit the Booking page",
             "result": {
-              "status": "passed",
-              "duration": 981000000
+              "status": "failed",
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'visit')\n    at Context.eval (cypress/integration/common/background.js:17:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -307,8 +289,7 @@
             "line": 38,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "passed",
-              "duration": 11838000000
+              "status": "skipped"
             }
           },
           {
@@ -317,8 +298,7 @@
             "line": 39,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "passed",
-              "duration": 8037000000
+              "status": "skipped"
             }
           },
           {
@@ -327,8 +307,7 @@
             "line": 40,
             "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 304000000
+              "status": "skipped"
             }
           },
           {
@@ -337,8 +316,7 @@
             "line": 41,
             "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 414000000
+              "status": "skipped"
             }
           },
           {
@@ -347,8 +325,7 @@
             "line": 42,
             "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 365000000
+              "status": "skipped"
             }
           },
           {
@@ -357,8 +334,7 @@
             "line": 43,
             "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 225000000
+              "status": "skipped"
             }
           },
           {
@@ -367,8 +343,7 @@
             "line": 44,
             "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 277000000
+              "status": "skipped"
             }
           },
           {
@@ -377,8 +352,7 @@
             "line": 45,
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 238000000
+              "status": "skipped"
             }
           },
           {
@@ -387,8 +361,7 @@
             "line": 46,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 778000000
+              "status": "skipped"
             }
           }
         ]
@@ -413,7 +386,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 634000000
+              "duration": 1392000000
             }
           },
           {
@@ -422,8 +395,8 @@
             "line": 51,
             "name": "I visit the Booking page",
             "result": {
-              "status": "passed",
-              "duration": 1087000000
+              "status": "failed",
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'visit')\n    at Context.eval (cypress/integration/common/background.js:17:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -432,8 +405,7 @@
             "line": 52,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "passed",
-              "duration": 10232000000
+              "status": "skipped"
             }
           },
           {
@@ -442,8 +414,7 @@
             "line": 53,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "passed",
-              "duration": 6600000000
+              "status": "skipped"
             }
           },
           {
@@ -452,8 +423,7 @@
             "line": 54,
             "name": "the Route section and VISITORS options is populated",
             "result": {
-              "status": "passed",
-              "duration": 6271000000
+              "status": "skipped"
             }
           },
           {
@@ -462,8 +432,7 @@
             "line": 55,
             "name": "the \"Date\" field is \"orange\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 287000000
+              "status": "skipped"
             }
           },
           {
@@ -472,8 +441,7 @@
             "line": 56,
             "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 311000000
+              "status": "skipped"
             }
           },
           {
@@ -482,8 +450,7 @@
             "line": 57,
             "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 291000000
+              "status": "skipped"
             }
           },
           {
@@ -492,8 +459,7 @@
             "line": 58,
             "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 300000000
+              "status": "skipped"
             }
           },
           {
@@ -502,8 +468,7 @@
             "line": 59,
             "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 276000000
+              "status": "skipped"
             }
           },
           {
@@ -512,8 +477,7 @@
             "line": 60,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 739000000
+              "status": "skipped"
             }
           }
         ]
@@ -538,7 +502,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 611000000
+              "duration": 798000000
             }
           },
           {
@@ -547,8 +511,8 @@
             "line": 65,
             "name": "I visit the Booking page",
             "result": {
-              "status": "passed",
-              "duration": 1179000000
+              "status": "failed",
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'visit')\n    at Context.eval (cypress/integration/common/background.js:17:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -557,8 +521,7 @@
             "line": 66,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "passed",
-              "duration": 11531000000
+              "status": "skipped"
             }
           },
           {
@@ -567,8 +530,7 @@
             "line": 67,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "passed",
-              "duration": 6502000000
+              "status": "skipped"
             }
           },
           {
@@ -577,8 +539,7 @@
             "line": 68,
             "name": "the Route section and VISITORS options is populated",
             "result": {
-              "status": "passed",
-              "duration": 6346000000
+              "status": "skipped"
             }
           },
           {
@@ -587,8 +548,7 @@
             "line": 69,
             "name": "I select Date and Ticket on the modal",
             "result": {
-              "status": "passed",
-              "duration": 16248000000
+              "status": "skipped"
             }
           },
           {
@@ -597,8 +557,7 @@
             "line": 70,
             "name": "the \"Add Return\" field is \"active-green\" in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 371000000
+              "status": "skipped"
             }
           },
           {
@@ -607,8 +566,7 @@
             "line": 71,
             "name": "the \"Done\" field has \"navy-blue\" background in the Booking Page",
             "result": {
-              "status": "passed",
-              "duration": 389000000
+              "status": "skipped"
             }
           },
           {
@@ -617,8 +575,7 @@
             "line": 72,
             "name": "The 'Basket is empty' should not be displayed in BOOKING SUMMARY",
             "result": {
-              "status": "passed",
-              "duration": 208000000
+              "status": "skipped"
             }
           },
           {
@@ -627,8 +584,7 @@
             "line": 73,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "passed",
-              "duration": 746000000
+              "status": "skipped"
             }
           }
         ]

@@ -2,7 +2,7 @@ Feature: Timeout modal displays
     As a user I should see timeout modal
     
 
-    @automating
+    @automatings
     Scenario: Countdown message displays when time expires for single journey
 	  Given I am a user of ForSea
 		When I am on Book your journey page

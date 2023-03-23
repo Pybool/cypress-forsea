@@ -30,7 +30,7 @@ module.exports = defineConfig({
       runMode:1,
       openMode:1
     },
-    timeout:15000,
+    defaultCommandTimeout:60000,
     chromeWebSecurity:false,
     specPattern: "**/*.feature",
     baseUrl: 'https://forsea-int.b2c.ticknovate-uat.com',

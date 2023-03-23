@@ -1,23 +1,19 @@
 
-import { Given, And, Then, When } from "cypress-cucumber-preprocessor/steps";
-import { openFieldModal ,selectModalOption,clickModalButton,selectModalHorizontalOption} from "../../../functions/helper";
+import {Then, When} from 'cypress-cucumber-preprocessor/steps'
+const { cy } = require('cypress')
 
 Then('I enter an {string} promotional code', (invalidCode) => {
-    
-   
+  cy.log(invalidCode)
 })
 
-Then("the 'Add' button becomes active", () => {
-    
-   
+Then('the \'Add\' button becomes active', () => {
+  cy.log('.')
 })
 
-When("I click 'Add' button", () => {
-    
-   
+When('I click \'Add\' button', () => {
+  cy.log('.')
 })
 
 Then('the error displays, {string}', (errorMessage) => {
-    
-   
+  cy.log(errorMessage)
 })
