@@ -1,0 +1,594 @@
+[
+  {
+    "description": "\tAs a User I will like to book a journey",
+    "keyword": "Feature",
+    "name": "Book your journey",
+    "line": 1,
+    "id": "book-your-journey",
+    "tags": [],
+    "uri": "BookYourJourney.feature",
+    "elements": [
+      {
+        "id": "book-your-journey;validate-'from'-button-on-home-screen",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validate 'From' button on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the \"From\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the \"To\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the \"Travel\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the \"Visitors\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-your-journey;validate-'how'-section-on-home-screen",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Validate 'How' section on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the \"Travel\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-your-journey;validate-'travel'-section-on-home-screen",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Validate 'Travel' section on Home Screen",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 11794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 4562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the \"Visitors\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the \"Date\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-your-journey;validate-'visitors'-section-on-home-screen",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Validate 'Visitors' section on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 47
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "the \"Date\" field is \"orange\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "the \"Ticket\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "the \"Add Return\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "the \"Done\" field is \"greyed out\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Basket is empty' should be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-your-journey;validate-'date'-and-'ticket'-section-on-home-screen",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Validate 'Date' and 'Ticket' section on Home Screen",
+        "tags": [
+          {
+            "name": "@automated",
+            "line": 61
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I select Date and Ticket on the modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "the \"Add Return\" field is \"active-green\" in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "the \"Done\" field has \"navy-blue\" background in the Booking Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "The 'Basket is empty' should not be displayed in BOOKING SUMMARY",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

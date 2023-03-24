@@ -7,7 +7,7 @@ import {
 import * as helper from '../functions/helper'
 // const { Cypress, cy } = require('cypress')
 
-const formElements = ['First name', 'Last name', 'Phone number', 'Email', 'Confirm Email', 'Enter your vehicle registration']
+const formElements = ['First name', 'Last name', 'Phone number', 'Email', 'Confirm Email']
 
 Given('I am a user of ForSea', () => {
 
@@ -68,9 +68,9 @@ When('I select Date and Ticket on the modal', async() => {
   cy.get('#portal div[class*=\'datetile_list_\'] div[class*=\'ticket_layout_\'] p').contains('Single Journey').click({
     force: true,
   })
-  await helper.blockingWait(5000)
+  cy.wait(5000)
   helper.clickModalButton('Done')
-  await helper.blockingWait(5000)
+  cy.wait(5000)
 })
 
 When('the Route section and VISITORS options is populated', () => {

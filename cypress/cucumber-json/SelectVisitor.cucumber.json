@@ -1,0 +1,2163 @@
+[
+  {
+    "description": "    As a user I want to select Visitors\n    So I purchase the right ticket",
+    "keyword": "Feature",
+    "name": "Select Visitors",
+    "line": 1,
+    "id": "select-visitors",
+    "tags": [],
+    "uri": "SelectVisitor.feature",
+    "elements": [
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 828000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 5852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 42536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 18904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 3914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"1\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 3582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1982000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 39623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 19573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"2\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 7622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 2692000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 897000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 26705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 18960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"3\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 12726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 3170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 884000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1847000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 19963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 9965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"4\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 13815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 5680000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1132000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 20666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 16122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 5271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"5\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 35487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 5402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 3844000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 2065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 35365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 19100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 5292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 4058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"6\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 40770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 3366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 2145000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 22564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 11252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"7\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 123887000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 3087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 2969000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1906000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 24701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 8987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"8\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 42933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 1326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1980000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-one-adult-option",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User selects one adult option",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 825000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 49051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 14878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click adult \"9\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 45024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 4186000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-more-than-9-adults",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "User selects more than 9 adults",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 23585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 14178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click adult \"9\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 45585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 4925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 764000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 16014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 14191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"8\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 23543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"1\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 4990000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 1491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 1755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 2637000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1855000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 24363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 18171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 3785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"7\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 51766000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"2\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 20782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 3013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 3619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 4896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1177000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 19861000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 12685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"6\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 30254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"3\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 19397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 3150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 3360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 7589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1851000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 3842000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 41040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 14940000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"5\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 24923000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"4\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 23631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 6471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 935000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 19914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 10034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"4\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 10647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"5\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 26752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 3364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 4691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1030000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 18860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 21154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 6192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"3\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 15794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"6\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 22785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 2173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 3435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 724000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 20610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 9631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 3784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"2\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 5015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"7\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 24933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 1606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 1509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 1733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1540000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-visitors;user-selects-a-combination-of-adults-and-children",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "User selects a combination of adults and children",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 24925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 12730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I click the \"Visitors\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see \"Select Visitors\" modal in Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click adult \"1\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I click child \"8\" button on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 76002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the adult \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 5433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the child \"+\" button is greyed out and not clicakable",
+            "result": {
+              "status": "passed",
+              "duration": 6092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 7515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1756000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

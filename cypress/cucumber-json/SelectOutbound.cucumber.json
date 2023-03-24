@@ -1,0 +1,1650 @@
+[
+  {
+    "description": "    As a user I want to select outbound Date\n    So I can proceed to return dates",
+    "keyword": "Feature",
+    "name": "Select Dates for OutBound",
+    "line": 1,
+    "id": "select-dates-for-outbound",
+    "tags": [],
+    "uri": "SelectOutbound.feature",
+    "elements": [
+      {
+        "id": "select-dates-for-outbound;next-button-in-the-outbound-date-modal-greyed-out",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Next button in the Outbound Date Modal greyed out",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 2532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 9397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 145451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 24538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 10658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 5591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the 'Outbound Date' modal defaults to the current month",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      },
+      {
+        "description": "        GGiven I am a user of ForSea",
+        "id": "select-dates-for-outbound;forward-arrow-icon-in-outbound-date-modal-is-clickable",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Forward Arrow icon in Outbound Date modal is clickable",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 4141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 26543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 16710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 8327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click the forward arrow icon",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the next month options displays",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;back-arrow-icon-in-outbound-date-modal-is-clickable",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Back Arrow icon in Outbound Date modal is clickable",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2056000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 17074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 12220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 8047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I click the back arrow icon",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the previous month option displays",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;x-icon-in-outbound-date-modal-is-clickable",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "X icon in Outbound Date modal is clickable",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 26021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 16895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 17185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click the 'X' icon",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "Outbound Date modal closes",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "the 'Book your journey' page displays",
+            "result": {
+              "status": "passed",
+              "duration": 2551000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;outbound-date-modal-shows-7-days-of-the-week",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Outbound Date modal shows 7 days of the week",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 57
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 59,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 16523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 10447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 9657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "the 'Outbound Date' modal shows 7 days of the week in a table",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;the-default-currency-displays-in-the-outbound-date-modal",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "The default currency displays in the Outbound Date Modal",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 69
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 71,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 21838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 14609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 10042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "the 'Outbound Date' modal displays prices in the default currency for the market",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;greyed-out-date-is-not-clickable",
+        "keyword": "Scenario",
+        "line": 81,
+        "name": "Greyed out date is not clickable",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 80
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 82,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 18287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 8987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 9425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "I select a greyed out date",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "the date is not clickable",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;user-user-clicks-back-arrow-icon",
+        "keyword": "Scenario",
+        "line": 94,
+        "name": "User user clicks back arrow icon",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 93
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 95,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 97,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 18795000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 10379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 99,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 10044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 4193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 101,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 102,
+            "name": "I select Date and Ticket on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 22890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "the 'Outbound Ticket' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "'Today', 'Tomorrow', 'A day After' date options displays",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "ticket options displays",
+            "result": {
+              "status": "passed",
+              "duration": 709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 106,
+            "name": "I click the back arrow icon on outbound ticket",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 107,
+            "name": "previous 5 days options displays",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;user-clicks-front-arrow-on-'outbound-ticket-modal'",
+        "keyword": "Scenario",
+        "line": 110,
+        "name": "User clicks front arrow on 'OutBound Ticket modal'",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 109
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 111,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1680000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 19197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 114,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 12456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 115,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 20319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 9141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 118,
+            "name": "I select Date and Ticket on the modal",
+            "result": {
+              "status": "passed",
+              "duration": 29142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "the 'Outbound Ticket' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 120,
+            "name": "'Today', 'Tomorrow', 'A day After' date options displays",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 121,
+            "name": "ticket options displays",
+            "result": {
+              "status": "passed",
+              "duration": 4691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 122,
+            "name": "I click the front arrow icon on the outbound ticket",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "next 5 days options displays",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;the-outbound-ticket-modal-displays",
+        "keyword": "Scenario",
+        "line": 126,
+        "name": "The Outbound Ticket modal displays",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 125
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 127,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 3474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 128,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3783000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 129,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 42326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 130,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 17575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 16055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 132,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 9610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 133,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 134,
+            "name": "I select an active date",
+            "result": {
+              "status": "passed",
+              "duration": 4891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 135,
+            "name": "the date is highlighted in green",
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 136,
+            "name": "the 'NEXT' button in the 'Outbound Date' modal is active",
+            "result": {
+              "status": "passed",
+              "duration": 1046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 137,
+            "name": "the 'NEXT' button in the 'Outbound Date' is clicked",
+            "result": {
+              "status": "passed",
+              "duration": 4279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 138,
+            "name": "the 'Outbound Ticket' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;user-selects-single-journey",
+        "keyword": "Scenario",
+        "line": 141,
+        "name": "User selects single journey",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 140
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 142,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 2495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 143,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 144,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 35204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 145,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "passed",
+              "duration": 15628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 146,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "passed",
+              "duration": 14846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 147,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "passed",
+              "duration": 5147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 148,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 149,
+            "name": "I select an active date",
+            "result": {
+              "status": "passed",
+              "duration": 2362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "the date is highlighted in green",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "the 'NEXT' button in the 'Outbound Date' modal is active",
+            "result": {
+              "status": "passed",
+              "duration": 702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 152,
+            "name": "the 'NEXT' button in the 'Outbound Date' is clicked",
+            "result": {
+              "status": "passed",
+              "duration": 3338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 153,
+            "name": "the 'Outbound Ticket' modal displays",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 154,
+            "name": "I select Single Journey in the 'Outbound Ticket' modal",
+            "result": {
+              "status": "passed",
+              "duration": 2589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 155,
+            "name": "the date is highlighted in green in the outbound Ticket",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 156,
+            "name": "I click 'DONE' button in the outbound Ticket",
+            "result": {
+              "status": "passed",
+              "duration": 12586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 157,
+            "name": "the 'Book your journey' page displays",
+            "result": {
+              "status": "passed",
+              "duration": 1033000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;booking-summary-details-matches-selection",
+        "keyword": "Scenario",
+        "line": 177,
+        "name": "Booking summary details matches selection",
+        "tags": [
+          {
+            "name": "@manual",
+            "line": 159
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 161,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 162,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 163,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 164,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 165,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 166,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 167,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 168,
+            "name": "I click the 'NEXT' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 169,
+            "name": "the <Outbound Ticket> modal displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 170,
+            "name": "I select Single Journey in the 'Outbound Ticket' modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 171,
+            "name": "I click 'DONE' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 172,
+            "name": "the <Book your journey> displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 173,
+            "name": "<BOOKING SUMMARY> contains the following information",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 174,
+            "name": "'Add a promotion code' text and text box is present",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-dates-for-outbound;show-less-link-displays-correctly",
+        "keyword": "Scenario",
+        "line": 199,
+        "name": "Show less link displays correctly",
+        "tags": [
+          {
+            "name": "@manual",
+            "line": 180
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 182,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 183,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 184,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 185,
+            "name": "I select \"Car under 6 meter\" from the vehicle modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 186,
+            "name": "the Route section and VISITORS options is populated",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 187,
+            "name": "I select Date in the outbound section",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 188,
+            "name": "the 'Outbound Date' modal displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 189,
+            "name": "I click the 'NEXT' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 190,
+            "name": "the <Outbound Ticket> modal displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 191,
+            "name": "I select Single Journey in the 'Outbound Ticket' modal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 192,
+            "name": "I click 'DONE' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 193,
+            "name": "the <Book your journey> displays",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 194,
+            "name": "I click 'SHOW LESS' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 195,
+            "name": "<BOOKING SUMMARY> contains the following information",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 196,
+            "name": "'Add a promotion code' text and text box is present",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,583 @@
+[
+  {
+    "description": "    As a user I want to select travel type\n    So I have the right ticket",
+    "keyword": "Feature",
+    "name": "Select Travel types",
+    "line": 1,
+    "id": "select-travel-types",
+    "tags": [],
+    "uri": "SelectTravelType.feature",
+    "elements": [
+      {
+        "id": "select-travel-types;user-selects-vehicle-type",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User selects vehicle type",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 3026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 28177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "passed",
+              "duration": 5825000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"Car under 6 meter\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 9288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 4118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 1200000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-travel-types;user-selects-vehicle-type",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "User selects vehicle type",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 996000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 101521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 8424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "passed",
+              "duration": 10323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"Motorhome < 6 meter\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 16805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 9247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 3025000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-travel-types;user-selects-vehicle-type",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User selects vehicle type",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 2579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 56382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 7485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "passed",
+              "duration": 7302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"Motorhome > 6 meter\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 13702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 3415000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-travel-types;user-selects-vehicle-type",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User selects vehicle type",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 1133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 19923000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"Car + motorhome\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 3028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-travel-types;user-selects-vehicle-type",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "User selects vehicle type",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 2554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 26524000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 4772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "passed",
+              "duration": 3730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"Car + trailer\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 4320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 2720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 2741000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "select-travel-types;user-selects-vehicle-type",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "User selects vehicle type",
+        "tags": [
+          {
+            "name": "@automating",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am a user of ForSea",
+            "result": {
+              "status": "passed",
+              "duration": 978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I visit the Booking page",
+            "result": {
+              "status": "passed",
+              "duration": 1549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
+            "result": {
+              "status": "passed",
+              "duration": 16060000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Travel\" field in the Booking Page",
+            "result": {
+              "status": "passed",
+              "duration": 5304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select \"Vehicle\" from the box list",
+            "result": {
+              "status": "passed",
+              "duration": 3382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select \"Motorcycle\" from the list",
+            "result": {
+              "status": "passed",
+              "duration": 3810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I click \"Done\" button from the modal",
+            "result": {
+              "status": "passed",
+              "duration": 1413000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The 'Book your journey' heading is displayed on the top left hand side",
+            "result": {
+              "status": "passed",
+              "duration": 2217000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

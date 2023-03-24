@@ -11,6 +11,6 @@ And('The timer exceed allocated time', async() => {
   const now = new Date()
   const fastForwardTime = now.getTime() + (1199000-120) // 19 minutes and 59 seconds in milliseconds
   cy.clock(fastForwardTime)
-  await helper.blockingWait(50000)
+  cy.wait(50000)
 })
 

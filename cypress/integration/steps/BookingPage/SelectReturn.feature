@@ -36,7 +36,7 @@ Feature: Select Dates for InBound
         Then the 'Return Date' modal is displayed
         And the Modal shows Days of the week
 
-    @automated-skip
+    @automating-skip
     Scenario: User clicks back arrow in 'Return Date modal'
 		Given I am a user of ForSea
 		When I am on Book your journey page

@@ -102,11 +102,11 @@ Then('I should see {string} modal in Booking Page', (name) => {
 Then('I select {string} from the list', (selectedName) => {
   selectModalOption(selectedName)
 })
-When('I select {string} from the vehicle modal', (vehicleType) => {
-  openFieldModal('Travel')
-  selectModalHorizontalOption('Vehicle')
-  selectModalOption(vehicleType)
-  clickModalButton('Done')
+When('I select {string} from the vehicle modal', async (vehicleType) => {
+  await openFieldModal('Travel')
+  await selectModalHorizontalOption('Vehicle')
+  await selectModalOption(vehicleType)
+  await clickModalButton('Done')
 })
 Then('I select {string} from the box list', (selectedName) => {
   selectModalHorizontalOption(selectedName)
@@ -137,18 +137,18 @@ When('I select Date and Ticket on the modal', async()=>{
   cy.get('#portal div[class*=\'datetile_list_\'] div[class*=\'ticket_layout_\'] p')
     .contains('Single Journey')
     .click({force: true})
-    await blockingWait(5000)
+    cy.wait(5000)
   cy.get('div[id=\'portal\'] div[class*=\'row_spread_\'] button[class*=\'button_button_\'] span')
     .contains('Done')
     .click({force: true})
-    await blockingWait(5000)
+    cy.wait(5000)
 })
 When('the Route section and VISITORS options is populated', () => {
   openFieldModal('Visitors')
   cy.get('#portal')
-    .get('input[id=\'ticket[0]qty\']')
+    .get('input[id=\'ticket[0]qty\']', {timeout: 40000})
     .parent('div[class*="fieldwrapper_layout_"]')
-    .siblings('button').eq(1).click()
+    .siblings('button').eq(1).click({force:true})
   clickModalButton('Done')
 })
 

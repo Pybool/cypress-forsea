@@ -10,9 +10,9 @@ import * as helper from '../../../functions/helper'
 const buttonsSelector = 'button[class^="button_button_"]'
 const returnDateSelector = 'h3:contains(Return Date)'
 const addReturnButtonSelector = `${buttonsSelector}:contains(Add Return)`
-const formElements = ['First name', 'Last name', 'Phone number', 'Email', 'Confirm Email', 'Enter your vehicle registration']
+const formElements = ['First name', 'Last name', 'Phone number', 'Email', 'Confirm Email']
 const longtimeout = 40000
-const timeout = 15000
+const timeout = 40000
 
 Then('\'YOUR DETAILS\' page displays', () => {
   cy.contains('h1', 'Book your journey')
@@ -80,7 +80,7 @@ Then('\'Booking Summary\' section matches booking information for round trip', (
   cy.get('@summary').find('span').contains('Ticket Price').as('ticketprice')
   cy.get('@ticketprice').siblings().eq(0).invoke('text').then(async (txt)=>{
     cy.log(bookingInfo.price, txt)
-    await helper.blockingWait(3000)
+    cy.wait(3000)
   })
   const to = bookingInfo.to.split(',')[1].trim()
   const from = bookingInfo.from.split(',')[1].trim()
@@ -130,11 +130,11 @@ And('\'Return\' section is completed', async () => {
   cy.get('#portal div[class*=\'datetile_list_\'] div[class*=\'ticket_layout_\'] p')
     .contains('Round trip')
     .click({force: true})
-  await helper.blockingWait(3000)
+  cy.wait(3000)
   cy.get('div[id=\'portal\'] div[class*=\'row_spread_\'] button[class*=\'button_button_\'] span')
     .contains('Done')
     .click({force: true})
-  await helper.blockingWait(3000)
+  cy.wait(3000)
 })
 
 

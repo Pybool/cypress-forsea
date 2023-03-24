@@ -64,11 +64,11 @@ When('I select Date and Ticket on the modal', async() => {
   cy.get('#portal div[class*=\'datetile_list_\'] div[class*=\'ticket_layout_\'] p')
     .contains('Single Journey')
     .click({force: true})
-  await blockingWait(5000)
+  cy.wait(5000)
   cy.get('div[id=\'portal\'] div[class*=\'row_spread_\'] button[class*=\'button_button_\'] span')
     .contains('Done')
     .click({force: true})
-  await blockingWait(5000)
+  cy.wait(5000)
 })
 When('I click the back arrow icon on outbound ticket', () => {
 
@@ -120,11 +120,11 @@ When('I select Single Journey in the \'Outbound Ticket\' modal', () => {
     .click({force: true})
 })
 When('I click \'DONE\' button in the outbound Ticket', async() => {
-  await blockingWait(5000)
+  cy.wait(5000)
   cy.get('div[id=\'portal\'] div[class*=\'row_spread_\'] button[class*=\'button_button_\'] span')
     .contains('Done')
     .click({force: true})
-  await blockingWait(5000)
+  cy.wait(5000)
 })
 Then('the date is highlighted in green in the outbound Ticket', () => {
 

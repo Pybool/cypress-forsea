@@ -12,17 +12,7 @@ Password:
 module.exports = defineConfig({
   projectId: '6ys49g',
   e2e: {
-  //   reporter: "salty-cypress-testrail-reporter",
-  // reporterOptions: {
-  //   domain: "ticknovate.testrail.io",
-  //   username: "taye.oyelekan@ticknovate.com",
-  //   password: "D8xdFOkk5AP.HkCqgNw8-iBO5WdpNLqWpihQz3Zl2",
-  //   projectId: 3,
-  //   suiteId: 10,
-  //   createTestRun: true,
-  //   //runId: testRunNumber,
-  //   runName: "Seting up testrail"  npx cypress-tags run -e TAGS='@automating' --headed
-  // },
+
     setupNodeEvents(on) {
       on('file:preprocessor', cucumber())
     },
@@ -32,6 +22,7 @@ module.exports = defineConfig({
     },
     defaultCommandTimeout:60000,
     chromeWebSecurity:false,
+    videoCompression: false,
     specPattern: "**/*.feature",
     baseUrl: 'https://forsea-int.b2c.ticknovate-uat.com',
     env: {

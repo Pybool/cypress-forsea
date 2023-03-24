@@ -1,7 +1,7 @@
 
 Feature: Booking page
 	As a User I will like to book a journey
-	@automating
+	@automated
 	Scenario: C2375 Validate From button on Home Screen
 		Given I am a user of ForSea
 		When I visit the Booking page
@@ -10,7 +10,7 @@ Feature: Booking page
 		And the "Travel" field is "greyed out" in the Booking Page
 		And the "Visitors" field is "greyed out" in the Booking Page
 
-	@automating
+	@automated
 	Scenario: Validate <YOUR DETAILS> link on Home Screen
 		Given I am a user of ForSea
 		When I visit the Booking page
@@ -18,7 +18,7 @@ Feature: Booking page
 		And The 'Basket is empty' should be displayed in BOOKING SUMMARY
 		And The 'Book your journey' heading is displayed on the top left hand side
 
-	@automating
+	@automated
 	Scenario: Validate <MAKE PAYMENT> link on Home Screen
 		Given I am a user of ForSea
 		When I visit the Booking page
@@ -27,7 +27,7 @@ Feature: Booking page
 		And The 'Book your journey' heading is displayed on the top left hand side
 
 
-	@automating
+	@automated
 	Scenario: Validate FROM and TO fields
 
 		Given I am a user of ForSea
@@ -46,7 +46,7 @@ Feature: Booking page
 		
 
 
-	@automating
+	@automated
 	Scenario: Validate Travel and Visitors field on the Home Screen
 		Given I am a user of ForSea
 		When I visit the Booking page
@@ -80,7 +80,7 @@ Feature: Booking page
 			| Motorcycle |
 
 
-	@automating-skip
+	@automated-skip
 	Scenario: Validate Arrow button on the booking page
 		Given I am a user of ForSea
 		When I visit the Booking page
