@@ -15,7 +15,7 @@
         "name": "Your Detail Page displays for single journey",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 5
           }
         ],
@@ -27,8 +27,7 @@
             "line": 7,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 801000000
+              "status": "skipped"
             }
           },
           {
@@ -37,8 +36,7 @@
             "line": 8,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 3962000000
+              "status": "skipped"
             }
           },
           {
@@ -47,8 +45,7 @@
             "line": 9,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 26799000000
+              "status": "skipped"
             }
           },
           {
@@ -57,8 +54,7 @@
             "line": 10,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 23636000000
+              "status": "skipped"
             }
           },
           {
@@ -67,8 +63,7 @@
             "line": 11,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 27447000000
+              "status": "skipped"
             }
           },
           {
@@ -77,8 +72,7 @@
             "line": 12,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 872000000
+              "status": "skipped"
             }
           },
           {
@@ -87,8 +81,7 @@
             "line": 13,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 796000000
+              "status": "skipped"
             }
           },
           {
@@ -97,8 +90,7 @@
             "line": 14,
             "name": "'Booking Summary' section matches booking information",
             "result": {
-              "status": "passed",
-              "duration": 6436000000
+              "status": "skipped"
             }
           }
         ]
@@ -110,7 +102,7 @@
         "name": "Your Detail Page displays for return journey",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 16
           }
         ],
@@ -122,8 +114,7 @@
             "line": 18,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 5680000000
+              "status": "skipped"
             }
           },
           {
@@ -132,8 +123,7 @@
             "line": 19,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1870000000
+              "status": "skipped"
             }
           },
           {
@@ -142,8 +132,7 @@
             "line": 20,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 29649000000
+              "status": "skipped"
             }
           },
           {
@@ -152,8 +141,7 @@
             "line": 21,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 32838000000
+              "status": "skipped"
             }
           },
           {
@@ -162,8 +150,7 @@
             "line": 22,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 38070000000
+              "status": "skipped"
             }
           },
           {
@@ -172,8 +159,7 @@
             "line": 23,
             "name": "'Return' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 47423000000
+              "status": "skipped"
             }
           },
           {
@@ -182,8 +168,7 @@
             "line": 24,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 2248000000
+              "status": "skipped"
             }
           },
           {
@@ -192,8 +177,7 @@
             "line": 25,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 2644000000
+              "status": "skipped"
             }
           },
           {
@@ -202,8 +186,7 @@
             "line": 26,
             "name": "'Booking Summary' section matches booking information for round trip",
             "result": {
-              "status": "passed",
-              "duration": 41702000000
+              "status": "skipped"
             }
           }
         ]
@@ -215,7 +198,7 @@
         "name": "Your Detail Page contains six text boxes",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 28
           }
         ],
@@ -227,8 +210,7 @@
             "line": 30,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 1183000000
+              "status": "skipped"
             }
           },
           {
@@ -237,8 +219,7 @@
             "line": 31,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1347000000
+              "status": "skipped"
             }
           },
           {
@@ -247,8 +228,7 @@
             "line": 32,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 22640000000
+              "status": "skipped"
             }
           },
           {
@@ -257,8 +237,7 @@
             "line": 33,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 19601000000
+              "status": "skipped"
             }
           },
           {
@@ -267,8 +246,7 @@
             "line": 34,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 34802000000
+              "status": "skipped"
             }
           },
           {
@@ -277,8 +255,7 @@
             "line": 35,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 1275000000
+              "status": "skipped"
             }
           },
           {
@@ -287,8 +264,7 @@
             "line": 36,
             "name": "'YOUR DETAILS' page displays with six '<Text>' boxes",
             "result": {
-              "status": "passed",
-              "duration": 13578000000
+              "status": "skipped"
             }
           }
         ]
@@ -300,7 +276,7 @@
         "name": "Your Detail Page contains two checkboxes",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 42
           }
         ],
@@ -312,8 +288,7 @@
             "line": 44,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 1004000000
+              "status": "skipped"
             }
           },
           {
@@ -322,8 +297,7 @@
             "line": 45,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1211000000
+              "status": "skipped"
             }
           },
           {
@@ -332,8 +306,7 @@
             "line": 46,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 25401000000
+              "status": "skipped"
             }
           },
           {
@@ -342,8 +315,7 @@
             "line": 47,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 23270000000
+              "status": "skipped"
             }
           },
           {
@@ -352,8 +324,7 @@
             "line": 48,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 36335000000
+              "status": "skipped"
             }
           },
           {
@@ -362,8 +333,7 @@
             "line": 49,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 684000000
+              "status": "skipped"
             }
           },
           {
@@ -372,8 +342,7 @@
             "line": 50,
             "name": "'YOUR DETAILS' page displays with two <check boxes>",
             "result": {
-              "status": "passed",
-              "duration": 10250000000
+              "status": "skipped"
             }
           }
         ]
@@ -385,7 +354,7 @@
         "name": "Make Payment button is highlighted when text boxes is not filled",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 56
           }
         ],
@@ -397,8 +366,7 @@
             "line": 58,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 918000000
+              "status": "skipped"
             }
           },
           {
@@ -407,8 +375,7 @@
             "line": 59,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1124000000
+              "status": "skipped"
             }
           },
           {
@@ -417,8 +384,7 @@
             "line": 60,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 17787000000
+              "status": "skipped"
             }
           },
           {
@@ -427,8 +393,7 @@
             "line": 61,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 27129000000
+              "status": "skipped"
             }
           },
           {
@@ -437,8 +402,7 @@
             "line": 62,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 26278000000
+              "status": "skipped"
             }
           },
           {
@@ -447,8 +411,7 @@
             "line": 63,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 677000000
+              "status": "skipped"
             }
           },
           {
@@ -457,8 +420,7 @@
             "line": 64,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 1018000000
+              "status": "skipped"
             }
           },
           {
@@ -467,8 +429,7 @@
             "line": 65,
             "name": "'Make Payment' button is highlighted in red",
             "result": {
-              "status": "passed",
-              "duration": 9262000000
+              "status": "skipped"
             }
           }
         ]
@@ -480,7 +441,7 @@
         "name": "Error message displays when a field is in focus",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 67
           }
         ],
@@ -492,8 +453,7 @@
             "line": 69,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 1780000000
+              "status": "skipped"
             }
           },
           {
@@ -502,8 +462,7 @@
             "line": 70,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1187000000
+              "status": "skipped"
             }
           },
           {
@@ -512,8 +471,7 @@
             "line": 71,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 19916000000
+              "status": "skipped"
             }
           },
           {
@@ -522,8 +480,7 @@
             "line": 72,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 17263000000
+              "status": "skipped"
             }
           },
           {
@@ -532,8 +489,7 @@
             "line": 73,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 30615000000
+              "status": "skipped"
             }
           },
           {
@@ -542,8 +498,7 @@
             "line": 74,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 735000000
+              "status": "skipped"
             }
           },
           {
@@ -552,8 +507,7 @@
             "line": 75,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 872000000
+              "status": "skipped"
             }
           },
           {
@@ -562,8 +516,7 @@
             "line": 76,
             "name": "I click inside a 'Text Box' and clcik in the next input the '* Required field' message is displayed",
             "result": {
-              "status": "passed",
-              "duration": 17850000000
+              "status": "skipped"
             }
           }
         ]
@@ -575,7 +528,7 @@
         "name": "Error message displays when wrong information is entered in Phone field",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 78
           }
         ],
@@ -587,8 +540,7 @@
             "line": 80,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 702000000
+              "status": "skipped"
             }
           },
           {
@@ -597,8 +549,7 @@
             "line": 81,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1157000000
+              "status": "skipped"
             }
           },
           {
@@ -607,8 +558,7 @@
             "line": 82,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 20541000000
+              "status": "skipped"
             }
           },
           {
@@ -617,8 +567,7 @@
             "line": 83,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 21735000000
+              "status": "skipped"
             }
           },
           {
@@ -627,8 +576,7 @@
             "line": 84,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 31434000000
+              "status": "skipped"
             }
           },
           {
@@ -637,8 +585,7 @@
             "line": 85,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 988000000
+              "status": "skipped"
             }
           },
           {
@@ -647,8 +594,7 @@
             "line": 86,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 937000000
+              "status": "skipped"
             }
           },
           {
@@ -657,8 +603,7 @@
             "line": 87,
             "name": "I enter \"@@@###$$$\" in \"Phone number\" field text Box",
             "result": {
-              "status": "passed",
-              "duration": 19142000000
+              "status": "skipped"
             }
           },
           {
@@ -667,8 +612,7 @@
             "line": 88,
             "name": "I tick 'I approve ForSea Ferries terms and conditions and privacy policy' Checkbox",
             "result": {
-              "status": "passed",
-              "duration": 1933000000
+              "status": "skipped"
             }
           },
           {
@@ -677,8 +621,7 @@
             "line": 89,
             "name": "'Please fill in the required items' message is displayed",
             "result": {
-              "status": "passed",
-              "duration": 981000000
+              "status": "skipped"
             }
           }
         ]
@@ -690,7 +633,7 @@
         "name": "Error message displays when wrong information is entered in Email field",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 96
           }
         ],
@@ -702,8 +645,7 @@
             "line": 98,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 883000000
+              "status": "skipped"
             }
           },
           {
@@ -712,8 +654,7 @@
             "line": 99,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1965000000
+              "status": "skipped"
             }
           },
           {
@@ -722,8 +663,7 @@
             "line": 100,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 25437000000
+              "status": "skipped"
             }
           },
           {
@@ -732,8 +672,7 @@
             "line": 101,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 21421000000
+              "status": "skipped"
             }
           },
           {
@@ -742,8 +681,7 @@
             "line": 102,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 33592000000
+              "status": "skipped"
             }
           },
           {
@@ -752,8 +690,7 @@
             "line": 103,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 961000000
+              "status": "skipped"
             }
           },
           {
@@ -762,8 +699,7 @@
             "line": 104,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 861000000
+              "status": "skipped"
             }
           },
           {
@@ -772,8 +708,7 @@
             "line": 105,
             "name": "I enter \"@@@###$$$\" in \"Email\" field text Box",
             "result": {
-              "status": "passed",
-              "duration": 7882000000
+              "status": "skipped"
             }
           },
           {
@@ -782,8 +717,7 @@
             "line": 106,
             "name": "I tick 'I approve ForSea Ferries terms and conditions and privacy policy' Checkbox",
             "result": {
-              "status": "passed",
-              "duration": 1839000000
+              "status": "skipped"
             }
           },
           {
@@ -792,8 +726,7 @@
             "line": 107,
             "name": "'Please fill in the required items' message is displayed",
             "result": {
-              "status": "passed",
-              "duration": 970000000
+              "status": "skipped"
             }
           }
         ]
@@ -805,7 +738,7 @@
         "name": "Error message displays when wrong information is entered in Confirm Email field",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 113
           }
         ],
@@ -817,8 +750,7 @@
             "line": 115,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 902000000
+              "status": "skipped"
             }
           },
           {
@@ -827,8 +759,7 @@
             "line": 116,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 942000000
+              "status": "skipped"
             }
           },
           {
@@ -837,8 +768,7 @@
             "line": 117,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 40873000000
+              "status": "skipped"
             }
           },
           {
@@ -847,8 +777,7 @@
             "line": 118,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 28595000000
+              "status": "skipped"
             }
           },
           {
@@ -857,8 +786,7 @@
             "line": 119,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 27111000000
+              "status": "skipped"
             }
           },
           {
@@ -867,8 +795,7 @@
             "line": 120,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 1323000000
+              "status": "skipped"
             }
           },
           {
@@ -877,8 +804,7 @@
             "line": 121,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 1504000000
+              "status": "skipped"
             }
           },
           {
@@ -887,8 +813,7 @@
             "line": 122,
             "name": "I enter \"@@@###$$$\" in \"Confirm Email\" field text Box",
             "result": {
-              "status": "passed",
-              "duration": 12211000000
+              "status": "skipped"
             }
           },
           {
@@ -897,8 +822,7 @@
             "line": 123,
             "name": "I tick 'I approve ForSea Ferries terms and conditions and privacy policy' Checkbox",
             "result": {
-              "status": "passed",
-              "duration": 1862000000
+              "status": "skipped"
             }
           },
           {
@@ -907,8 +831,7 @@
             "line": 124,
             "name": "'Please fill in the required items' message is displayed",
             "result": {
-              "status": "passed",
-              "duration": 1733000000
+              "status": "skipped"
             }
           }
         ]
@@ -920,7 +843,7 @@
         "name": "Error message displays when wrong information is entered in First name field",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 130
           }
         ],
@@ -932,8 +855,7 @@
             "line": 132,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 834000000
+              "status": "skipped"
             }
           },
           {
@@ -942,8 +864,7 @@
             "line": 133,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1246000000
+              "status": "skipped"
             }
           },
           {
@@ -952,8 +873,7 @@
             "line": 134,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 18446000000
+              "status": "skipped"
             }
           },
           {
@@ -962,8 +882,7 @@
             "line": 135,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 19494000000
+              "status": "skipped"
             }
           },
           {
@@ -972,8 +891,7 @@
             "line": 136,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 31097000000
+              "status": "skipped"
             }
           },
           {
@@ -982,8 +900,7 @@
             "line": 137,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 2413000000
+              "status": "skipped"
             }
           },
           {
@@ -992,8 +909,7 @@
             "line": 138,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 4378000000
+              "status": "skipped"
             }
           },
           {
@@ -1002,8 +918,7 @@
             "line": 139,
             "name": "I enter \"123456789\" in \"First name\" field text Box",
             "result": {
-              "status": "passed",
-              "duration": 25265000000
+              "status": "skipped"
             }
           },
           {
@@ -1012,8 +927,7 @@
             "line": 140,
             "name": "I tick 'I approve ForSea Ferries terms and conditions and privacy policy' Checkbox",
             "result": {
-              "status": "passed",
-              "duration": 4840000000
+              "status": "skipped"
             }
           },
           {
@@ -1022,8 +936,7 @@
             "line": 141,
             "name": "'Please fill in the required items' message is displayed",
             "result": {
-              "status": "passed",
-              "duration": 2200000000
+              "status": "skipped"
             }
           }
         ]
@@ -1035,7 +948,7 @@
         "name": "Error message displays when wrong information is entered in Last name field",
         "tags": [
           {
-            "name": "@automating",
+            "name": "@automated",
             "line": 147
           }
         ],
@@ -1047,8 +960,7 @@
             "line": 149,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "passed",
-              "duration": 2413000000
+              "status": "skipped"
             }
           },
           {
@@ -1057,8 +969,7 @@
             "line": 150,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "passed",
-              "duration": 1408000000
+              "status": "skipped"
             }
           },
           {
@@ -1067,8 +978,7 @@
             "line": 151,
             "name": "'Route' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 25304000000
+              "status": "skipped"
             }
           },
           {
@@ -1077,8 +987,7 @@
             "line": 152,
             "name": "'How' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 25614000000
+              "status": "skipped"
             }
           },
           {
@@ -1087,8 +996,7 @@
             "line": 153,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "passed",
-              "duration": 40666000000
+              "status": "skipped"
             }
           },
           {
@@ -1097,8 +1005,7 @@
             "line": 154,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "passed",
-              "duration": 1436000000
+              "status": "skipped"
             }
           },
           {
@@ -1107,8 +1014,7 @@
             "line": 155,
             "name": "'YOUR DETAILS' page displays",
             "result": {
-              "status": "passed",
-              "duration": 1295000000
+              "status": "skipped"
             }
           },
           {
@@ -1117,8 +1023,7 @@
             "line": 156,
             "name": "I enter \"123456789\" in \"Last name\" field text Box",
             "result": {
-              "status": "passed",
-              "duration": 18075000000
+              "status": "skipped"
             }
           },
           {
@@ -1127,8 +1032,7 @@
             "line": 157,
             "name": "I tick 'I approve ForSea Ferries terms and conditions and privacy policy' Checkbox",
             "result": {
-              "status": "passed",
-              "duration": 4819000000
+              "status": "skipped"
             }
           },
           {
@@ -1137,8 +1041,7 @@
             "line": 158,
             "name": "'Please fill in the required items' message is displayed",
             "result": {
-              "status": "passed",
-              "duration": 2817000000
+              "status": "skipped"
             }
           }
         ]

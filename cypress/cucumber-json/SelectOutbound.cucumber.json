@@ -15,7 +15,7 @@
         "name": "Next button in the Outbound Date Modal greyed out",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -28,7 +28,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 704000000
+              "duration": 2532000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1881000000
+              "duration": 9397000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 12801000000
+              "duration": 145451000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 7164000000
+              "duration": 24538000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 6080000000
+              "duration": 10658000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4442000000
+              "duration": 5591000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 28000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "the 'Outbound Date' modal defaults to the current month",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 72000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 34000000
             }
           }
         ]
@@ -121,7 +121,7 @@
         "name": "Forward Arrow icon in Outbound Date modal is clickable",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 17
           }
         ],
@@ -134,7 +134,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1851000000
+              "duration": 4141000000
             }
           },
           {
@@ -144,7 +144,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 10575000000
+              "duration": 26543000000
             }
           },
           {
@@ -154,7 +154,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 6178000000
+              "duration": 16710000000
             }
           },
           {
@@ -164,7 +164,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 6270000000
+              "duration": 8327000000
             }
           },
           {
@@ -174,7 +174,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4201000000
+              "duration": 4385000000
             }
           },
           {
@@ -184,7 +184,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           },
           {
@@ -194,7 +194,7 @@
             "name": "I click the forward arrow icon",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 10000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "the next month options displays",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 7000000
             }
           },
           {
@@ -214,7 +214,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 25000000
             }
           }
         ]
@@ -226,7 +226,7 @@
         "name": "Back Arrow icon in Outbound Date modal is clickable",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 31
           }
         ],
@@ -239,7 +239,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 676000000
+              "duration": 1241000000
             }
           },
           {
@@ -249,7 +249,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 992000000
+              "duration": 2056000000
             }
           },
           {
@@ -259,7 +259,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 10996000000
+              "duration": 17074000000
             }
           },
           {
@@ -269,7 +269,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 6420000000
+              "duration": 12220000000
             }
           },
           {
@@ -279,7 +279,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 5967000000
+              "duration": 8047000000
             }
           },
           {
@@ -289,7 +289,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4063000000
+              "duration": 4579000000
             }
           },
           {
@@ -299,7 +299,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 17000000
             }
           },
           {
@@ -309,7 +309,7 @@
             "name": "I click the back arrow icon",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 15000000
             }
           },
           {
@@ -319,7 +319,7 @@
             "name": "the previous month option displays",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 20000000
             }
           },
           {
@@ -329,7 +329,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 16000000
             }
           }
         ]
@@ -341,7 +341,7 @@
         "name": "X icon in Outbound Date modal is clickable",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 44
           }
         ],
@@ -354,7 +354,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 567000000
+              "duration": 1019000000
             }
           },
           {
@@ -364,7 +364,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1222000000
+              "duration": 2008000000
             }
           },
           {
@@ -374,7 +374,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 10376000000
+              "duration": 26021000000
             }
           },
           {
@@ -384,7 +384,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 6512000000
+              "duration": 16895000000
             }
           },
           {
@@ -394,7 +394,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 5866000000
+              "duration": 17185000000
             }
           },
           {
@@ -404,7 +404,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 3950000000
+              "duration": 4574000000
             }
           },
           {
@@ -414,7 +414,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 19000000
             }
           },
           {
@@ -424,7 +424,7 @@
             "name": "I click the 'X' icon",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 73000000
             }
           },
           {
@@ -434,7 +434,7 @@
             "name": "Outbound Date modal closes",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 21000000
             }
           },
           {
@@ -444,7 +444,7 @@
             "name": "the 'Book your journey' page displays",
             "result": {
               "status": "passed",
-              "duration": 999000000
+              "duration": 2551000000
             }
           }
         ]
@@ -456,7 +456,7 @@
         "name": "Outbound Date modal shows 7 days of the week",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 57
           }
         ],
@@ -469,7 +469,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 365000000
+              "duration": 1174000000
             }
           },
           {
@@ -479,7 +479,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1156000000
+              "duration": 1767000000
             }
           },
           {
@@ -489,7 +489,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 11044000000
+              "duration": 16523000000
             }
           },
           {
@@ -499,7 +499,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 6012000000
+              "duration": 10447000000
             }
           },
           {
@@ -509,7 +509,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 6085000000
+              "duration": 9657000000
             }
           },
           {
@@ -519,7 +519,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4110000000
+              "duration": 4510000000
             }
           },
           {
@@ -529,7 +529,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 7000000
             }
           },
           {
@@ -539,7 +539,7 @@
             "name": "the 'Outbound Date' modal shows 7 days of the week in a table",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 7000000
             }
           }
         ]
@@ -551,7 +551,7 @@
         "name": "The default currency displays in the Outbound Date Modal",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 69
           }
         ],
@@ -564,7 +564,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 1094000000
             }
           },
           {
@@ -574,7 +574,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1176000000
+              "duration": 1632000000
             }
           },
           {
@@ -584,7 +584,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 11155000000
+              "duration": 21838000000
             }
           },
           {
@@ -594,7 +594,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 6532000000
+              "duration": 14609000000
             }
           },
           {
@@ -604,7 +604,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 6780000000
+              "duration": 10042000000
             }
           },
           {
@@ -614,7 +614,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4037000000
+              "duration": 4344000000
             }
           },
           {
@@ -624,7 +624,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 10000000
             }
           },
           {
@@ -634,7 +634,7 @@
             "name": "the 'Outbound Date' modal displays prices in the default currency for the market",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 6000000
             }
           }
         ]
@@ -646,7 +646,7 @@
         "name": "Greyed out date is not clickable",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 80
           }
         ],
@@ -659,7 +659,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 587000000
+              "duration": 807000000
             }
           },
           {
@@ -669,7 +669,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 1157000000
+              "duration": 1706000000
             }
           },
           {
@@ -679,7 +679,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 10328000000
+              "duration": 18287000000
             }
           },
           {
@@ -689,7 +689,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 6642000000
+              "duration": 8987000000
             }
           },
           {
@@ -699,7 +699,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 5906000000
+              "duration": 9425000000
             }
           },
           {
@@ -709,7 +709,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4059000000
+              "duration": 4298000000
             }
           },
           {
@@ -719,7 +719,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 13000000
             }
           },
           {
@@ -729,7 +729,7 @@
             "name": "I select a greyed out date",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 19000000
             }
           },
           {
@@ -739,7 +739,7 @@
             "name": "the date is not clickable",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 20000000
             }
           },
           {
@@ -749,7 +749,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' modal is greyed out",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 11000000
             }
           }
         ]
@@ -761,7 +761,7 @@
         "name": "User user clicks back arrow icon",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 93
           }
         ],
@@ -774,7 +774,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1673000000
+              "duration": 756000000
             }
           },
           {
@@ -784,7 +784,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 2146000000
+              "duration": 1442000000
             }
           },
           {
@@ -794,7 +794,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 14556000000
+              "duration": 18795000000
             }
           },
           {
@@ -804,7 +804,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 8559000000
+              "duration": 10379000000
             }
           },
           {
@@ -814,7 +814,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 7901000000
+              "duration": 10044000000
             }
           },
           {
@@ -824,7 +824,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4529000000
+              "duration": 4193000000
             }
           },
           {
@@ -834,7 +834,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 7000000
             }
           },
           {
@@ -844,7 +844,7 @@
             "name": "I select Date and Ticket on the modal",
             "result": {
               "status": "passed",
-              "duration": 15225000000
+              "duration": 22890000000
             }
           },
           {
@@ -853,7 +853,8 @@
             "line": 103,
             "name": "the 'Outbound Ticket' modal displays",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 141000000
             }
           },
           {
@@ -862,7 +863,8 @@
             "line": 104,
             "name": "'Today', 'Tomorrow', 'A day After' date options displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9000000
             }
           },
           {
@@ -871,7 +873,8 @@
             "line": 105,
             "name": "ticket options displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 709000000
             }
           },
           {
@@ -880,7 +883,8 @@
             "line": 106,
             "name": "I click the back arrow icon on outbound ticket",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 16000000
             }
           },
           {
@@ -889,7 +893,8 @@
             "line": 107,
             "name": "previous 5 days options displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 8000000
             }
           }
         ]
@@ -901,7 +906,7 @@
         "name": "User clicks front arrow on 'OutBound Ticket modal'",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 109
           }
         ],
@@ -914,7 +919,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 2669000000
+              "duration": 760000000
             }
           },
           {
@@ -924,7 +929,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 2040000000
+              "duration": 1680000000
             }
           },
           {
@@ -934,7 +939,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 22192000000
+              "duration": 19197000000
             }
           },
           {
@@ -944,7 +949,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 12432000000
+              "duration": 12456000000
             }
           },
           {
@@ -954,7 +959,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 10450000000
+              "duration": 20319000000
             }
           },
           {
@@ -964,7 +969,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 4708000000
+              "duration": 9141000000
             }
           },
           {
@@ -974,7 +979,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 32000000
             }
           },
           {
@@ -984,7 +989,7 @@
             "name": "I select Date and Ticket on the modal",
             "result": {
               "status": "passed",
-              "duration": 18975000000
+              "duration": 29142000000
             }
           },
           {
@@ -993,7 +998,8 @@
             "line": 119,
             "name": "the 'Outbound Ticket' modal displays",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 551000000
             }
           },
           {
@@ -1002,7 +1008,8 @@
             "line": 120,
             "name": "'Today', 'Tomorrow', 'A day After' date options displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19000000
             }
           },
           {
@@ -1011,7 +1018,8 @@
             "line": 121,
             "name": "ticket options displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4691000000
             }
           },
           {
@@ -1020,7 +1028,8 @@
             "line": 122,
             "name": "I click the front arrow icon on the outbound ticket",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 136000000
             }
           },
           {
@@ -1029,7 +1038,8 @@
             "line": 123,
             "name": "next 5 days options displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 37000000
             }
           }
         ]
@@ -1041,7 +1051,7 @@
         "name": "The Outbound Ticket modal displays",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 125
           }
         ],
@@ -1054,7 +1064,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 4007000000
+              "duration": 3474000000
             }
           },
           {
@@ -1064,7 +1074,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 2098000000
+              "duration": 3783000000
             }
           },
           {
@@ -1074,7 +1084,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 50395000000
+              "duration": 42326000000
             }
           },
           {
@@ -1084,7 +1094,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 28338000000
+              "duration": 17575000000
             }
           },
           {
@@ -1094,7 +1104,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 24566000000
+              "duration": 16055000000
             }
           },
           {
@@ -1104,7 +1114,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 8559000000
+              "duration": 9610000000
             }
           },
           {
@@ -1114,7 +1124,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 43000000
             }
           },
           {
@@ -1124,7 +1134,7 @@
             "name": "I select an active date",
             "result": {
               "status": "passed",
-              "duration": 6245000000
+              "duration": 4891000000
             }
           },
           {
@@ -1134,7 +1144,7 @@
             "name": "the date is highlighted in green",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 69000000
             }
           },
           {
@@ -1144,7 +1154,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' modal is active",
             "result": {
               "status": "passed",
-              "duration": 867000000
+              "duration": 1046000000
             }
           },
           {
@@ -1154,7 +1164,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' is clicked",
             "result": {
               "status": "passed",
-              "duration": 5170000000
+              "duration": 4279000000
             }
           },
           {
@@ -1163,7 +1173,8 @@
             "line": 138,
             "name": "the 'Outbound Ticket' modal displays",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 8000000
             }
           }
         ]
@@ -1175,7 +1186,7 @@
         "name": "User selects single journey",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 140
           }
         ],
@@ -1188,7 +1199,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 4368000000
+              "duration": 2495000000
             }
           },
           {
@@ -1198,7 +1209,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 2206000000
+              "duration": 3148000000
             }
           },
           {
@@ -1208,7 +1219,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 38482000000
+              "duration": 35204000000
             }
           },
           {
@@ -1218,7 +1229,7 @@
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
               "status": "passed",
-              "duration": 22160000000
+              "duration": 15628000000
             }
           },
           {
@@ -1228,7 +1239,7 @@
             "name": "the Route section and VISITORS options is populated",
             "result": {
               "status": "passed",
-              "duration": 15945000000
+              "duration": 14846000000
             }
           },
           {
@@ -1238,7 +1249,7 @@
             "name": "I select Date in the outbound section",
             "result": {
               "status": "passed",
-              "duration": 6574000000
+              "duration": 5147000000
             }
           },
           {
@@ -1248,7 +1259,7 @@
             "name": "the 'Outbound Date' modal displays",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 9000000
             }
           },
           {
@@ -1258,7 +1269,7 @@
             "name": "I select an active date",
             "result": {
               "status": "passed",
-              "duration": 4099000000
+              "duration": 2362000000
             }
           },
           {
@@ -1268,7 +1279,7 @@
             "name": "the date is highlighted in green",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 15000000
             }
           },
           {
@@ -1278,7 +1289,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' modal is active",
             "result": {
               "status": "passed",
-              "duration": 1192000000
+              "duration": 702000000
             }
           },
           {
@@ -1288,7 +1299,7 @@
             "name": "the 'NEXT' button in the 'Outbound Date' is clicked",
             "result": {
               "status": "passed",
-              "duration": 3840000000
+              "duration": 3338000000
             }
           },
           {
@@ -1297,8 +1308,8 @@
             "line": 153,
             "name": "the 'Outbound Ticket' modal displays",
             "result": {
-              "status": "undefined",
-              "duration": 1000000
+              "status": "passed",
+              "duration": 141000000
             }
           },
           {
@@ -1307,7 +1318,8 @@
             "line": 154,
             "name": "I select Single Journey in the 'Outbound Ticket' modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2589000000
             }
           },
           {
@@ -1316,7 +1328,8 @@
             "line": 155,
             "name": "the date is highlighted in green in the outbound Ticket",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 21000000
             }
           },
           {
@@ -1325,7 +1338,8 @@
             "line": 156,
             "name": "I click 'DONE' button in the outbound Ticket",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12586000000
             }
           },
           {
@@ -1334,7 +1348,8 @@
             "line": 157,
             "name": "the 'Book your journey' page displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1033000000
             }
           }
         ]

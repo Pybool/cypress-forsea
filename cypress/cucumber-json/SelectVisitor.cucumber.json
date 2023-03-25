@@ -15,7 +15,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -28,7 +28,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1450000000
+              "duration": 828000000
             }
           },
           {
@@ -37,8 +37,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 5852000000
             }
           },
           {
@@ -47,7 +47,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 42536000000
             }
           },
           {
@@ -56,7 +57,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 18904000000
             }
           },
           {
@@ -65,7 +67,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3914000000
             }
           },
           {
@@ -74,7 +77,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2348000000
             }
           },
           {
@@ -83,7 +87,8 @@
             "line": 13,
             "name": "I click adult \"1\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3582000000
             }
           },
           {
@@ -92,7 +97,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2895000000
             }
           },
           {
@@ -101,7 +107,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1982000000
             }
           }
         ]
@@ -113,7 +120,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -126,7 +133,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1329000000
+              "duration": 974000000
             }
           },
           {
@@ -135,8 +142,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1823000000
             }
           },
           {
@@ -145,7 +152,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 39623000000
             }
           },
           {
@@ -154,7 +162,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19573000000
             }
           },
           {
@@ -163,7 +172,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4827000000
             }
           },
           {
@@ -172,7 +182,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2335000000
             }
           },
           {
@@ -181,7 +192,8 @@
             "line": 13,
             "name": "I click adult \"2\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7622000000
             }
           },
           {
@@ -190,7 +202,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2286000000
             }
           },
           {
@@ -199,7 +212,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2692000000
             }
           }
         ]
@@ -211,7 +225,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -224,7 +238,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1298000000
+              "duration": 897000000
             }
           },
           {
@@ -233,8 +247,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1953000000
             }
           },
           {
@@ -243,7 +257,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 26705000000
             }
           },
           {
@@ -252,7 +267,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 18960000000
             }
           },
           {
@@ -261,7 +277,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4113000000
             }
           },
           {
@@ -270,7 +287,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1993000000
             }
           },
           {
@@ -279,7 +297,8 @@
             "line": 13,
             "name": "I click adult \"3\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12726000000
             }
           },
           {
@@ -288,7 +307,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3170000000
             }
           },
           {
@@ -297,7 +317,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 884000000
             }
           }
         ]
@@ -309,7 +330,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -322,7 +343,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1347000000
+              "duration": 589000000
             }
           },
           {
@@ -331,8 +352,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1847000000
             }
           },
           {
@@ -341,7 +362,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19963000000
             }
           },
           {
@@ -350,7 +372,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9965000000
             }
           },
           {
@@ -359,7 +382,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4671000000
             }
           },
           {
@@ -368,7 +392,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1488000000
             }
           },
           {
@@ -377,7 +402,8 @@
             "line": 13,
             "name": "I click adult \"4\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 13815000000
             }
           },
           {
@@ -386,7 +412,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5680000000
             }
           },
           {
@@ -395,7 +422,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1132000000
             }
           }
         ]
@@ -407,7 +435,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -420,7 +448,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1304000000
+              "duration": 642000000
             }
           },
           {
@@ -429,8 +457,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 2878000000
             }
           },
           {
@@ -439,7 +467,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 20666000000
             }
           },
           {
@@ -448,7 +477,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 16122000000
             }
           },
           {
@@ -457,7 +487,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5271000000
             }
           },
           {
@@ -466,7 +497,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2166000000
             }
           },
           {
@@ -475,7 +507,8 @@
             "line": 13,
             "name": "I click adult \"5\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 35487000000
             }
           },
           {
@@ -484,7 +517,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5402000000
             }
           },
           {
@@ -493,7 +527,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3844000000
             }
           }
         ]
@@ -505,7 +540,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -518,7 +553,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1368000000
+              "duration": 2065000000
             }
           },
           {
@@ -527,8 +562,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 2632000000
             }
           },
           {
@@ -537,7 +572,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 35365000000
             }
           },
           {
@@ -546,7 +582,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19100000000
             }
           },
           {
@@ -555,7 +592,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5292000000
             }
           },
           {
@@ -564,7 +602,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4058000000
             }
           },
           {
@@ -573,7 +612,8 @@
             "line": 13,
             "name": "I click adult \"6\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 40770000000
             }
           },
           {
@@ -582,7 +622,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3366000000
             }
           },
           {
@@ -591,7 +632,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2145000000
             }
           }
         ]
@@ -603,7 +645,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -616,7 +658,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1440000000
+              "duration": 872000000
             }
           },
           {
@@ -625,8 +667,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1594000000
             }
           },
           {
@@ -635,7 +677,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 22564000000
             }
           },
           {
@@ -644,7 +687,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 11252000000
             }
           },
           {
@@ -653,7 +697,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4512000000
             }
           },
           {
@@ -662,7 +707,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3687000000
             }
           },
           {
@@ -671,7 +717,8 @@
             "line": 13,
             "name": "I click adult \"7\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 123887000000
             }
           },
           {
@@ -680,7 +727,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3087000000
             }
           },
           {
@@ -689,7 +737,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2969000000
             }
           }
         ]
@@ -701,7 +750,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -714,7 +763,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1360000000
+              "duration": 1746000000
             }
           },
           {
@@ -723,8 +772,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1906000000
             }
           },
           {
@@ -733,7 +782,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 24701000000
             }
           },
           {
@@ -742,7 +792,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 8987000000
             }
           },
           {
@@ -751,7 +802,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4165000000
             }
           },
           {
@@ -760,7 +812,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1275000000
             }
           },
           {
@@ -769,7 +822,8 @@
             "line": 13,
             "name": "I click adult \"8\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 42933000000
             }
           },
           {
@@ -778,7 +832,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1326000000
             }
           },
           {
@@ -787,7 +842,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1980000000
             }
           }
         ]
@@ -799,7 +855,7 @@
         "name": "User selects one adult option",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -812,7 +868,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1371000000
+              "duration": 825000000
             }
           },
           {
@@ -821,8 +877,8 @@
             "line": 8,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1784000000
             }
           },
           {
@@ -831,7 +887,8 @@
             "line": 9,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 49051000000
             }
           },
           {
@@ -840,7 +897,8 @@
             "line": 10,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14878000000
             }
           },
           {
@@ -849,7 +907,8 @@
             "line": 11,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4224000000
             }
           },
           {
@@ -858,7 +917,8 @@
             "line": 12,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1187000000
             }
           },
           {
@@ -867,7 +927,8 @@
             "line": 13,
             "name": "I click adult \"9\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 45024000000
             }
           },
           {
@@ -876,7 +937,8 @@
             "line": 14,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2856000000
             }
           },
           {
@@ -885,7 +947,8 @@
             "line": 15,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4186000000
             }
           }
         ]
@@ -897,7 +960,7 @@
         "name": "User selects more than 9 adults",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 28
           }
         ],
@@ -910,7 +973,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1575000000
+              "duration": 1582000000
             }
           },
           {
@@ -919,9 +982,8 @@
             "line": 31,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "duration": 1000000,
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1910000000
             }
           },
           {
@@ -930,7 +992,8 @@
             "line": 32,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 23585000000
             }
           },
           {
@@ -939,7 +1002,8 @@
             "line": 33,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14178000000
             }
           },
           {
@@ -948,7 +1012,8 @@
             "line": 34,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4749000000
             }
           },
           {
@@ -957,7 +1022,8 @@
             "line": 35,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3067000000
             }
           },
           {
@@ -966,7 +1032,8 @@
             "line": 36,
             "name": "I click adult \"9\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 45585000000
             }
           },
           {
@@ -975,7 +1042,8 @@
             "line": 37,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2400000000
             }
           },
           {
@@ -984,7 +1052,8 @@
             "line": 38,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2732000000
             }
           },
           {
@@ -993,7 +1062,8 @@
             "line": 39,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4925000000
             }
           },
           {
@@ -1002,7 +1072,8 @@
             "line": 40,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 764000000
             }
           }
         ]
@@ -1014,7 +1085,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1027,7 +1098,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1536000000
+              "duration": 797000000
             }
           },
           {
@@ -1036,8 +1107,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1619000000
             }
           },
           {
@@ -1046,7 +1117,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 16014000000
             }
           },
           {
@@ -1055,7 +1127,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14191000000
             }
           },
           {
@@ -1064,7 +1137,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4762000000
             }
           },
           {
@@ -1073,7 +1147,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3058000000
             }
           },
           {
@@ -1082,7 +1157,8 @@
             "line": 53,
             "name": "I click adult \"8\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 23543000000
             }
           },
           {
@@ -1091,7 +1167,8 @@
             "line": 54,
             "name": "I click child \"1\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4990000000
             }
           },
           {
@@ -1100,7 +1177,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1491000000
             }
           },
           {
@@ -1109,7 +1187,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1755000000
             }
           },
           {
@@ -1118,7 +1197,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2255000000
             }
           },
           {
@@ -1127,7 +1207,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2637000000
             }
           }
         ]
@@ -1139,7 +1220,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1152,7 +1233,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1627000000
+              "duration": 779000000
             }
           },
           {
@@ -1161,8 +1242,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1855000000
             }
           },
           {
@@ -1171,7 +1252,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 24363000000
             }
           },
           {
@@ -1180,7 +1262,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 18171000000
             }
           },
           {
@@ -1189,7 +1272,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3785000000
             }
           },
           {
@@ -1198,7 +1282,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2603000000
             }
           },
           {
@@ -1207,7 +1292,8 @@
             "line": 53,
             "name": "I click adult \"7\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 51766000000
             }
           },
           {
@@ -1216,7 +1302,8 @@
             "line": 54,
             "name": "I click child \"2\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 20782000000
             }
           },
           {
@@ -1225,7 +1312,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3013000000
             }
           },
           {
@@ -1234,7 +1322,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3619000000
             }
           },
           {
@@ -1243,7 +1332,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4896000000
             }
           },
           {
@@ -1252,7 +1342,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1177000000
             }
           }
         ]
@@ -1264,7 +1355,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1277,7 +1368,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1749000000
+              "duration": 1977000000
             }
           },
           {
@@ -1286,8 +1377,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 2088000000
             }
           },
           {
@@ -1296,7 +1387,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19861000000
             }
           },
           {
@@ -1305,7 +1397,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12685000000
             }
           },
           {
@@ -1314,7 +1407,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4122000000
             }
           },
           {
@@ -1323,7 +1417,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1519000000
             }
           },
           {
@@ -1332,7 +1427,8 @@
             "line": 53,
             "name": "I click adult \"6\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 30254000000
             }
           },
           {
@@ -1341,7 +1437,8 @@
             "line": 54,
             "name": "I click child \"3\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19397000000
             }
           },
           {
@@ -1350,7 +1447,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3150000000
             }
           },
           {
@@ -1359,7 +1457,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3360000000
             }
           },
           {
@@ -1368,7 +1467,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7589000000
             }
           },
           {
@@ -1377,7 +1477,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1851000000
             }
           }
         ]
@@ -1389,7 +1490,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1402,7 +1503,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1774000000
+              "duration": 3842000000
             }
           },
           {
@@ -1411,8 +1512,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 2319000000
             }
           },
           {
@@ -1421,7 +1522,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 41040000000
             }
           },
           {
@@ -1430,7 +1532,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14940000000
             }
           },
           {
@@ -1439,7 +1542,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4393000000
             }
           },
           {
@@ -1448,7 +1552,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1930000000
             }
           },
           {
@@ -1457,7 +1562,8 @@
             "line": 53,
             "name": "I click adult \"5\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 24923000000
             }
           },
           {
@@ -1466,7 +1572,8 @@
             "line": 54,
             "name": "I click child \"4\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 23631000000
             }
           },
           {
@@ -1475,7 +1582,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2549000000
             }
           },
           {
@@ -1484,7 +1592,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2917000000
             }
           },
           {
@@ -1493,7 +1602,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6471000000
             }
           },
           {
@@ -1502,7 +1612,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 935000000
             }
           }
         ]
@@ -1514,7 +1625,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1536,8 +1647,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 2732000000
             }
           },
           {
@@ -1546,7 +1657,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19914000000
             }
           },
           {
@@ -1555,7 +1667,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 10034000000
             }
           },
           {
@@ -1564,7 +1677,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4426000000
             }
           },
           {
@@ -1573,7 +1687,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1141000000
             }
           },
           {
@@ -1582,7 +1697,8 @@
             "line": 53,
             "name": "I click adult \"4\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 10647000000
             }
           },
           {
@@ -1591,7 +1707,8 @@
             "line": 54,
             "name": "I click child \"5\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 26752000000
             }
           },
           {
@@ -1600,7 +1717,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2179000000
             }
           },
           {
@@ -1609,7 +1727,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3364000000
             }
           },
           {
@@ -1618,7 +1737,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4691000000
             }
           },
           {
@@ -1627,7 +1747,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1030000000
             }
           }
         ]
@@ -1639,7 +1760,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1652,7 +1773,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1474000000
+              "duration": 1280000000
             }
           },
           {
@@ -1661,8 +1782,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1789000000
             }
           },
           {
@@ -1671,7 +1792,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 18860000000
             }
           },
           {
@@ -1680,7 +1802,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 21154000000
             }
           },
           {
@@ -1689,7 +1812,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6192000000
             }
           },
           {
@@ -1698,7 +1822,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3064000000
             }
           },
           {
@@ -1707,7 +1832,8 @@
             "line": 53,
             "name": "I click adult \"3\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 15794000000
             }
           },
           {
@@ -1716,7 +1842,8 @@
             "line": 54,
             "name": "I click child \"6\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 22785000000
             }
           },
           {
@@ -1725,7 +1852,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2013000000
             }
           },
           {
@@ -1734,7 +1862,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2173000000
             }
           },
           {
@@ -1743,7 +1872,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3435000000
             }
           },
           {
@@ -1752,7 +1882,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 724000000
             }
           }
         ]
@@ -1764,7 +1895,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1777,7 +1908,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1556000000
+              "duration": 731000000
             }
           },
           {
@@ -1786,8 +1917,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1733000000
             }
           },
           {
@@ -1796,7 +1927,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 20610000000
             }
           },
           {
@@ -1805,7 +1937,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9631000000
             }
           },
           {
@@ -1814,7 +1947,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3784000000
             }
           },
           {
@@ -1823,7 +1957,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1177000000
             }
           },
           {
@@ -1832,7 +1967,8 @@
             "line": 53,
             "name": "I click adult \"2\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5015000000
             }
           },
           {
@@ -1841,7 +1977,8 @@
             "line": 54,
             "name": "I click child \"7\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 24933000000
             }
           },
           {
@@ -1850,7 +1987,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1606000000
             }
           },
           {
@@ -1859,7 +1997,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1509000000
             }
           },
           {
@@ -1868,7 +2007,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1733000000
             }
           },
           {
@@ -1877,7 +2017,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1540000000
             }
           }
         ]
@@ -1889,7 +2030,7 @@
         "name": "User selects a combination of adults and children",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 45
           }
         ],
@@ -1902,7 +2043,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 1506000000
+              "duration": 976000000
             }
           },
           {
@@ -1911,8 +2052,8 @@
             "line": 48,
             "name": "I visit the Booking page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://forsea-int.b2c.ticknovate-uat.com/ticket/route\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:142215:11)\n    at tryCatcher (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://forsea-int.b2c.ticknovate-uat.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/integration/common/background.js:14:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND forsea-int.b2c.ticknovate-uat.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+              "status": "passed",
+              "duration": 1617000000
             }
           },
           {
@@ -1921,7 +2062,8 @@
             "line": 49,
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 24925000000
             }
           },
           {
@@ -1930,7 +2072,8 @@
             "line": 50,
             "name": "I select \"Car under 6 meter\" from the vehicle modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12730000000
             }
           },
           {
@@ -1939,7 +2082,8 @@
             "line": 51,
             "name": "I click the \"Visitors\" field in the Booking Page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4562000000
             }
           },
           {
@@ -1948,7 +2092,8 @@
             "line": 52,
             "name": "I should see \"Select Visitors\" modal in Booking page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1400000000
             }
           },
           {
@@ -1957,7 +2102,8 @@
             "line": 53,
             "name": "I click adult \"1\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2554000000
             }
           },
           {
@@ -1966,7 +2112,8 @@
             "line": 54,
             "name": "I click child \"8\" button on the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 76002000000
             }
           },
           {
@@ -1975,7 +2122,8 @@
             "line": 55,
             "name": "the adult \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5433000000
             }
           },
           {
@@ -1984,7 +2132,8 @@
             "line": 56,
             "name": "the child \"+\" button is greyed out and not clicakable",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6092000000
             }
           },
           {
@@ -1993,7 +2142,8 @@
             "line": 57,
             "name": "I click \"Done\" button from the modal",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7515000000
             }
           },
           {
@@ -2002,7 +2152,8 @@
             "line": 58,
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1756000000
             }
           }
         ]

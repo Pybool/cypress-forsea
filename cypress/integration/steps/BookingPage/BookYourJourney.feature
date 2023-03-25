@@ -16,7 +16,6 @@ Feature: Book your journey
 		And The 'Basket is empty' should be displayed in BOOKING SUMMARY
 		And The 'Book your journey' heading is displayed on the top left hand side
 
-
 	@automated
 	Scenario: Validate 'How' section on Home Screen
 		Given I am a user of ForSea
@@ -71,8 +70,3 @@ Feature: Book your journey
 		And the "Done" field has "navy-blue" background in the Booking Page
 		And The 'Basket is empty' should not be displayed in BOOKING SUMMARY
 		And The 'Book your journey' heading is displayed on the top left hand side
-
-
-
-
-

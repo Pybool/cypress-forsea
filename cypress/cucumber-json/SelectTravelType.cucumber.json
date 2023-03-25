@@ -15,7 +15,7 @@
         "name": "User selects vehicle type",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -28,7 +28,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 440000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 367000000
+              "duration": 3026000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 1507000000
+              "duration": 28177000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I click the \"Travel\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 68000000
+              "duration": 4249000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "I select \"Vehicle\" from the box list",
             "result": {
               "status": "passed",
-              "duration": 190000000
+              "duration": 5825000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "I select \"Car under 6 meter\" from the list",
             "result": {
               "status": "passed",
-              "duration": 177000000
+              "duration": 9288000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 4118000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 1200000000
             }
           }
         ]
@@ -110,7 +110,7 @@
         "name": "User selects vehicle type",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -123,7 +123,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 996000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 207000000
+              "duration": 2126000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 1274000000
+              "duration": 101521000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I click the \"Travel\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 8424000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "I select \"Vehicle\" from the box list",
             "result": {
               "status": "passed",
-              "duration": 112000000
+              "duration": 10323000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "I select \"Motorhome < 6 meter\" from the list",
             "result": {
               "status": "passed",
-              "duration": 148000000
+              "duration": 16805000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 9247000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 3025000000
             }
           }
         ]
@@ -205,7 +205,7 @@
         "name": "User selects vehicle type",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -218,7 +218,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 2579000000
             }
           },
           {
@@ -228,7 +228,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 280000000
+              "duration": 2218000000
             }
           },
           {
@@ -238,7 +238,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 1357000000
+              "duration": 56382000000
             }
           },
           {
@@ -248,7 +248,7 @@
             "name": "I click the \"Travel\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 7485000000
             }
           },
           {
@@ -258,7 +258,7 @@
             "name": "I select \"Vehicle\" from the box list",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 7302000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "I select \"Motorhome > 6 meter\" from the list",
             "result": {
               "status": "passed",
-              "duration": 154000000
+              "duration": 13702000000
             }
           },
           {
@@ -278,7 +278,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 2668000000
             }
           },
           {
@@ -288,7 +288,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 3415000000
             }
           }
         ]
@@ -300,7 +300,7 @@
         "name": "User selects vehicle type",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -313,7 +313,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 1133000000
             }
           },
           {
@@ -323,7 +323,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 148000000
+              "duration": 2764000000
             }
           },
           {
@@ -333,7 +333,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 1392000000
+              "duration": 19923000000
             }
           },
           {
@@ -343,7 +343,7 @@
             "name": "I click the \"Travel\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 4509000000
             }
           },
           {
@@ -353,7 +353,7 @@
             "name": "I select \"Vehicle\" from the box list",
             "result": {
               "status": "passed",
-              "duration": 113000000
+              "duration": 2054000000
             }
           },
           {
@@ -363,7 +363,7 @@
             "name": "I select \"Car + motorhome\" from the list",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 3028000000
             }
           },
           {
@@ -373,7 +373,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 2257000000
             }
           },
           {
@@ -383,7 +383,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 616000000
             }
           }
         ]
@@ -395,7 +395,7 @@
         "name": "User selects vehicle type",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -408,7 +408,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 512000000
             }
           },
           {
@@ -418,7 +418,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 270000000
+              "duration": 2554000000
             }
           },
           {
@@ -428,7 +428,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 1304000000
+              "duration": 26524000000
             }
           },
           {
@@ -438,7 +438,7 @@
             "name": "I click the \"Travel\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 64000000
+              "duration": 4772000000
             }
           },
           {
@@ -448,7 +448,7 @@
             "name": "I select \"Vehicle\" from the box list",
             "result": {
               "status": "passed",
-              "duration": 117000000
+              "duration": 3730000000
             }
           },
           {
@@ -458,7 +458,7 @@
             "name": "I select \"Car + trailer\" from the list",
             "result": {
               "status": "passed",
-              "duration": 139000000
+              "duration": 4320000000
             }
           },
           {
@@ -468,7 +468,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 2720000000
             }
           },
           {
@@ -478,7 +478,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 2741000000
             }
           }
         ]
@@ -490,7 +490,7 @@
         "name": "User selects vehicle type",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 5
           }
         ],
@@ -503,7 +503,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 978000000
             }
           },
           {
@@ -513,7 +513,7 @@
             "name": "I visit the Booking page",
             "result": {
               "status": "passed",
-              "duration": 211000000
+              "duration": 1549000000
             }
           },
           {
@@ -523,7 +523,7 @@
             "name": "the 'Sweden, Helsingborg' and 'Denmark, Elsinor' fields are populated on the To and From field",
             "result": {
               "status": "passed",
-              "duration": 1239000000
+              "duration": 16060000000
             }
           },
           {
@@ -533,7 +533,7 @@
             "name": "I click the \"Travel\" field in the Booking Page",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 5304000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "I select \"Vehicle\" from the box list",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 3382000000
             }
           },
           {
@@ -553,7 +553,7 @@
             "name": "I select \"Motorcycle\" from the list",
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 3810000000
             }
           },
           {
@@ -563,7 +563,7 @@
             "name": "I click \"Done\" button from the modal",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 1413000000
             }
           },
           {
@@ -573,7 +573,7 @@
             "name": "The 'Book your journey' heading is displayed on the top left hand side",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 2217000000
             }
           }
         ]

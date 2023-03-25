@@ -36,8 +36,8 @@ Feature: Visit Your Detail page
     Then 'YOUR DETAILS' page displays with six '<Text>' boxes
     
       Examples:
-        |Text 1    |Text 2   |Text 3       |Text 4  |Text 5       |Text 6               |
-        |First name|Last name|Phone number |Email   |Confirm Email| Vehicle registration|
+        |Text 1    |Text 2   |Text 3       |Text 4  |Text 5       |
+        |First name|Last name|Phone number |Email   |Confirm Email|
 
     @automated
     Scenario Outline: Your Detail Page contains two checkboxes 

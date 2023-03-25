@@ -15,7 +15,7 @@
         "name": "Make Payment button is active",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 4
           }
         ],
@@ -27,7 +27,8 @@
             "line": 6,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1030000000
             }
           },
           {
@@ -36,7 +37,8 @@
             "line": 7,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4896000000
             }
           },
           {
@@ -45,7 +47,8 @@
             "line": 8,
             "name": "'Route' section is completed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 71571000000
             }
           },
           {
@@ -54,7 +57,8 @@
             "line": 9,
             "name": "'How' section is completed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 72615000000
             }
           },
           {
@@ -63,7 +67,8 @@
             "line": 10,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 107238000000
             }
           },
           {
@@ -72,7 +77,8 @@
             "line": 11,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1490000000
             }
           },
           {
@@ -81,7 +87,8 @@
             "line": 12,
             "name": "'YOUR DETAILS' page displays with six '<Text>' boxes",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 15631000000
             }
           },
           {
@@ -90,7 +97,8 @@
             "line": 13,
             "name": "correct detail is entered in the 'details page'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 40063000000
             }
           },
           {
@@ -99,7 +107,8 @@
             "line": 14,
             "name": "'Make Payment' button is active",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1170000000
             }
           }
         ]
@@ -111,7 +120,7 @@
         "name": "Payment Page should display",
         "tags": [
           {
-            "name": "@automated",
+            "name": "@automating",
             "line": 16
           }
         ],
@@ -123,7 +132,8 @@
             "line": 18,
             "name": "I am a user of ForSea",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3229000000
             }
           },
           {
@@ -132,7 +142,8 @@
             "line": 19,
             "name": "I am on Book your journey page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3030000000
             }
           },
           {
@@ -141,7 +152,8 @@
             "line": 20,
             "name": "'Route' section is completed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 77356000000
             }
           },
           {
@@ -150,7 +162,8 @@
             "line": 21,
             "name": "'How' section is completed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 29857000000
             }
           },
           {
@@ -159,7 +172,8 @@
             "line": 22,
             "name": "'The OutBound' section is completed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 27768000000
             }
           },
           {
@@ -168,7 +182,8 @@
             "line": 23,
             "name": "'DONE' button is selected",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 740000000
             }
           },
           {
@@ -177,7 +192,8 @@
             "line": 24,
             "name": "'YOUR DETAILS' page displays with six '<Text>' boxes",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9185000000
             }
           },
           {
@@ -186,7 +202,8 @@
             "line": 25,
             "name": "correct detail is entered in the 'details page'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 17499000000
             }
           },
           {
@@ -195,7 +212,8 @@
             "line": 26,
             "name": "'Make Payment' button is active",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 541000000
             }
           },
           {
@@ -204,7 +222,8 @@
             "line": 27,
             "name": "'Make Payment' button is clicked",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1650000000
             }
           },
           {
@@ -213,7 +232,8 @@
             "line": 28,
             "name": "'Payment Details' page displays",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6089000000
             }
           }
         ]
@@ -238,7 +258,7 @@
             "name": "I am a user of ForSea",
             "result": {
               "status": "passed",
-              "duration": 301000000
+              "duration": 654000000
             }
           },
           {
@@ -248,7 +268,7 @@
             "name": "I am on Book your journey page",
             "result": {
               "status": "passed",
-              "duration": 2434000000
+              "duration": 1200000000
             }
           },
           {
@@ -258,7 +278,7 @@
             "name": "'Route' section is completed",
             "result": {
               "status": "passed",
-              "duration": 8228000000
+              "duration": 17851000000
             }
           },
           {
@@ -268,7 +288,7 @@
             "name": "'How' section is completed",
             "result": {
               "status": "passed",
-              "duration": 7829000000
+              "duration": 18839000000
             }
           },
           {
@@ -278,7 +298,7 @@
             "name": "'The OutBound' section is completed",
             "result": {
               "status": "passed",
-              "duration": 14089000000
+              "duration": 50345000000
             }
           },
           {
@@ -288,7 +308,7 @@
             "name": "'DONE' button is selected",
             "result": {
               "status": "passed",
-              "duration": 320000000
+              "duration": 4352000000
             }
           },
           {
@@ -298,7 +318,7 @@
             "name": "'YOUR DETAILS' page displays with six '<Text>' boxes",
             "result": {
               "status": "passed",
-              "duration": 6643000000
+              "duration": 15232000000
             }
           },
           {
@@ -308,7 +328,7 @@
             "name": "correct detail is entered in the 'details page'",
             "result": {
               "status": "passed",
-              "duration": 5222000000
+              "duration": 44576000000
             }
           },
           {
@@ -318,7 +338,7 @@
             "name": "'Make Payment' button is clicked",
             "result": {
               "status": "passed",
-              "duration": 291000000
+              "duration": 20024000000
             }
           },
           {
@@ -328,7 +348,7 @@
             "name": "'Payment Details' page displays",
             "result": {
               "status": "passed",
-              "duration": 4881000000
+              "duration": 27553000000
             }
           },
           {
@@ -338,7 +358,7 @@
             "name": "'Payment Details' contains Add card radio button, Card number ,expiry, CVC",
             "result": {
               "status": "passed",
-              "duration": 8883000000
+              "duration": 33724000000
             }
           }
         ]
