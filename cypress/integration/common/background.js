@@ -14,7 +14,7 @@ Given('I am a user of ForSea', () => {
 })
 
 When('I visit the Booking page', () => {
-  cy.visit('/ticket/route')
+cy.visit('/ticket/route')
 })
 
 When('I am on Book your journey page', () => {

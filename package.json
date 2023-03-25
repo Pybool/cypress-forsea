@@ -53,7 +53,7 @@
     "lint:fix": "eslint --fix '**/*.{js,jsx}'",
     "lint:report": "eslint --quiet --output-file eslint_report.json --format json '**/*.{js,jsx}' --resolve-plugins-relative-to .",
     "start:regression": "./node_modules/.bin/cypress-tags run -e TAGS='@automatings' && npm run generate:report",
-    "start:test": "node_modules\\.bin\\cypress-tags run -e TAGS='@automating' --headless ",
+    "start:test": "node_modules\\.bin\\cypress-tags run -e TAGS='@automated' --headless ",
     "generate:report": "node cucumber-html-report.js",
     "export:report": "node testrail.js"
   },
